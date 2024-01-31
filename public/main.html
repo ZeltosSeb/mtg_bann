@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="public\css\style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MTG BANN LIST CHECKER</title>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="leftSide">
+        <h2 class="deckName">Deckname angeben:</h2>
+        <input class="inpDeckName" id="inputDeckName" />
+        <h2 class="mainHeader">Karten einfügen:</h2>
+        <textarea
+          id="userListInput"
+          name="cardList"
+          cols="80"
+          rows="30"
+        ></textarea>
+        <div class="mainBtns">
+          <button class="btn" id="AddToDeckList">Zu Decks</button>
+          <button class="btn" id="AddToBannList">Zu Banns</button>
+          <button class="btn" id="clearTextarea">Entferne Text</button>
+        </div>
+      </div>
+
+      <div class="rightSide">
+        <div class="split_left">
+          <div class="yourDeckContainer">
+            <h2 class="secondaryHeader">Dein Deck:</h2>
+            <div class="select">
+              <select id="deckSelector"></select>
+              <div class="select_arrow"></div>
+            </div>
+          </div>
+
+          <textarea
+            readonly
+            id="cleanedDeck"
+            name="cleanList"
+            cols="50"
+            rows="32"
+          >
+          </textarea>
+          <button class="btn" id="toClipboard_clean">To clipboard</button>
+        </div>
+
+        <div class="split_right">
+          <div class="yourDeckContainer">
+            <h2 class="secondaryHeader">Deine Bannliste:</h2>
+            <div class="select">
+              <select id="banSelector"></select>
+              <div class="select_arrow"></div>
+            </div>
+          </div>
+          <textarea readonly="dirtyCards" name="dirtyCards" cols="50" rows="32">
+          </textarea>
+          <button class="btn" id="toClipboard_dirty">To clipboard</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <h3>
+      Besuche
+      <a class="link" href="https://archidekt.com/">https://archidekt.com/</a>
+      und exportiere dein Deck als Text und wähle die Format Option "1 Card
+      Name" aus.
+    </h3>
+    <h3>Füge dein Deck nun in das linke Textfeld ein.</h3>
+  </footer>
+</html>

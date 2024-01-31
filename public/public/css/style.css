@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap");
+
+.btn {
+  margin: 5px;
+  font-family: Koulen;
+  font-weight: 900;
+  font-size: 22px;
+  color: #fff;
+  background: linear-gradient(90deg, #0066cc 0%, #c500cc 100%);
+  padding: 10px 30px;
+  border: 2px solid #0066cc;
+  box-shadow: none;
+  border-radius: 50px;
+  transition: 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.btn:hover {
+  outline: thick double #32a1ce;
+}
+
+body {
+  background-image: url("/img/BG.png");
+  background-repeat: repeat/no-repeat;
+  padding: 10px;
+  /* overflow: hidden; */
+}
+
+.saturate {
+  filter: saturate(3);
+}
+
+.rightSide {
+  display: flex;
+  float: right;
+  background-color: rgb(91, 28, 133);
+  border-radius: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.leftSide {
+  float: left;
+  background-color: rgb(76, 29, 194);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+.mainBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+textarea {
+  resize: none;
+  width: 99%;
+  height: 250px;
+}
+.mainHeader {
+  text-align: center;
+  color: white;
+}
+.deckName {
+  text-align: center;
+  color: white;
+}
+
+.link {
+  color: rgba(43, 223, 88, 0.603);
+}
+
+footer {
+  display: flex;
+  background-color: #333;
+  flex-direction: column;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 78vh;
+}
+.inpDeckName {
+  display: flex;
+  width: 250px;
+  height: 50px;
+  margin: 20px auto; /* Dies fügt horizontalen Abstand hinzu und zentriert das Element */
+  text-align: center;
+}
+
+.secondaryHeader {
+  text-align: center;
+  color: white;
+}
+
+.split_left,
+.split_right {
+  flex: 1;
+  margin: 10px;
+}
+
+.yourDeckContainer {
+  margin-bottom: 5px;
+  margin: 20px;
+}
+
+.secondaryHeader {
+  margin-bottom: 10px;
+}
+
+.select {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.select select {
+  font-family: "Arial";
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px 15px;
+  outline: 0;
+  border: 0px solid #000000;
+  border-radius: 0px;
+  background: #e6e6e6;
+  color: #7b7b7b;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.select select::-ms-expand {
+  display: none;
+}
+.select select:hover,
+.select select:focus {
+  color: #000000;
+  background: #cccccc;
+}
+.select select:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.select_arrow {
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  pointer-events: none;
+  border-style: solid;
+  border-width: 8px 5px 0px 5px;
+  border-color: #7b7b7b transparent transparent transparent;
+}
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+  border-top-color: #000000;
+}
+.select select:disabled ~ .select_arrow {
+  border-top-color: #cccccc;
+}
+#toClipboard_clean,
+#toClipboard_dirty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  margin: 20px auto; /* Dies fügt horizontalen Abstand hinzu und zentriert die Elemente */
+}
