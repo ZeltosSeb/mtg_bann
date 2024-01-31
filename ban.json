@@ -1,7 +1,7 @@
 {
-    "bannLists": [
+    "banLists": [
         {
-            "bannListName": "BannListe 1",
+            "banListName": "Banliste 1",
             "cards": [
                 {
                     "name": "Kartenname 1"
@@ -15,7 +15,7 @@
             ]
         },
         {
-            "bannListName": "BannListe 2",
+            "banListName": "Banliste 2",
             "cards": [
                 {
                     "name": "Kartenname 4"
@@ -29,7 +29,7 @@
             ]
         },
         {
-            "bannListName": "BannListe 3",
+            "banListName": "Banliste 3",
             "cards": [
                 {
                     "name": "Kartenname 7"
@@ -43,7 +43,7 @@
             ]
         },
         {
-            "bannListName": "BannListe 4",
+            "banListName": "Banliste 4",
             "cards": [
                 {
                     "name": "Kartenname 10"
