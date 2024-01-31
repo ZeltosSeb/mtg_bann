@@ -11,7 +11,7 @@
     <div class="mainContainer">
       <div class="leftSide">
         <h2 class="deckName">Deckname angeben:</h2>
-        <input class="inpDeckName" />
+        <input class="inpDeckName" id="inputDeckName"/>
         <h2 class="mainHeader">Karten einfügen:</h2>
         <textarea
           id="userListInput"
@@ -50,13 +50,7 @@
             rows="32"
           >
           </textarea>
-          <button
-            onclick="toClipboard('clean')"
-            class="btn"
-            id="toClipboard_clean"
-          >
-            To clipboard
-          </button>
+          <button class="btn" id="toClipboard_clean">To clipboard</button>
         </div>
 
         <div class="split_right">
@@ -75,13 +69,7 @@
           </div>
           <textarea readonly="dirtyCards" name="dirtyCards" cols="50" rows="32">
           </textarea>
-          <button
-            onclick="toClipboard('dirty')"
-            class="btn"
-            id="toClipboard_dirty"
-          >
-            To clipboard
-          </button>
+          <button class="btn" id="toClipboard_dirty">To clipboard</button>
         </div>
       </div>
     </div>
