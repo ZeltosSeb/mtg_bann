@@ -81,12 +81,13 @@ textarea {
 footer {
   display: flex;
   background-color: #333;
+  flex-direction: column;
   border-radius: 20px;
   color: white;
   padding: 10px;
   text-align: center;
   justify-content: center;
-  margin-top: 89vh;
+  margin-top: 85vh;
 }
 .inpDeckName {
   display: flex;
