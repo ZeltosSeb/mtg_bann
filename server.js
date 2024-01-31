@@ -84,3 +84,25 @@ app.post('/addDeckEntry', (req, res) => {
         });
     });
 });
+app.post('/addBanListEntry', (req, res) => {
+
+    const banEntry = req.body.banEntry;
+    fs.readFile(banFilePath, 'utf8', (err, data) => {
+        if (err) {
+            console.error('Fehler beim Lesen der JSON-Datei:', err);
+            res.status(500).send('Internal Server Error');
+            return;
+        }
+        const currentData = JSON.parse(data);
+        currentData.banLists.push(banEntry);
+        fs.writeFile(banFilePath, JSON.stringify(currentData, null, 2), (err) => {
+            if (err) {
+                console.error('Fehler beim Schreiben der JSON-Datei:', err);
+                res.status(500).send('Internal Server Error');
+                return;
+            }
+            console.log('banEntry erfolgreich hinzugefügt.');
+            res.status(200).send('banEntry erfolgreich hinzugefügt.');
+        });
+    });
+});
