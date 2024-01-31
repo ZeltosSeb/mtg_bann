@@ -1,60 +1,60 @@
 {
-    "decks": [
+  "decks": [
+    {
+      "deckName": "Testdeck 1",
+      "cards": [
         {
-            "deckName": "Testdeck 1",
-            "cards": [
-                {
-                    "name": "Kartenname 1"
-                },
-                {
-                    "name": "Kartenname 2"
-                },
-                {
-                    "name": "Kartenname 3"
-                }
-            ]
+          "name": "Kartenname 1"
         },
         {
-            "deckName": "Testdeck 2",
-            "cards": [
-                {
-                    "name": "Kartenname 4"
-                },
-                {
-                    "name": "Kartenname 5"
-                },
-                {
-                    "name": "Kartenname 6"
-                }
-            ]
+          "name": "Kartenname 2"
         },
         {
-            "deckName": "Testdeck 3",
-            "cards": [
-                {
-                    "name": "Kartenname 7"
-                },
-                {
-                    "name": "Kartenname 8"
-                },
-                {
-                    "name": "Kartenname 9"
-                }
-            ]
-        },
-        {
-            "deckName": "Testdeck 4",
-            "cards": [
-                {
-                    "name": "Kartenname 10"
-                },
-                {
-                    "name": "Kartenname 11"
-                },
-                {
-                    "name": "Kartenname 12"
-                }
-            ]
+          "name": "Kartenname 3"
         }
-    ]
+      ]
+    },
+    {
+      "deckName": "Testdeck 2",
+      "cards": [
+        {
+          "name": "Kartenname 4"
+        },
+        {
+          "name": "Kartenname 5"
+        },
+        {
+          "name": "Kartenname 6"
+        }
+      ]
+    },
+    {
+      "deckName": "Testdeck 3",
+      "cards": [
+        {
+          "name": "Kartenname 7"
+        },
+        {
+          "name": "Kartenname 8"
+        },
+        {
+          "name": "Kartenname 9"
+        }
+      ]
+    },
+    {
+      "deckName": "Testdeck 4",
+      "cards": [
+        {
+          "name": "Kartenname 10"
+        },
+        {
+          "name": "Kartenname 11"
+        },
+        {
+          "name": "Kartenname 12"
+        }
+      ]
+    }
+  ]
 }

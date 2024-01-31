@@ -10,18 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
   let deckSelector = document.getElementById("deckSelector");
   let banSelector = document.getElementById("banSelector");
 
-  // let deckJSON = fetch("json/deck.json").then(response => response.json()).then(data => {
-  //   console.log("Json Deck geladen.");
-  //   addToSelector(data);
-  // }).catch(error => console.error('Fehler beim Laden der JSON-Datei:', error))
 
-  // let banJSON = fetch("json/ban.json").then(response => response.json()).then(data => {
-  //   console.log("Json Ban geladen.")
-  //   addToSelector(data);
-  // })
-  // .catch(error => console.error('Fehler beim Laden der JSON-Datei:', error));
-
-  let deckJSON = fetch('http://localhost:3000/getDeckData')
+  fetch('http://localhost:3000/getDeckData')
     .then(response => response.json())
     .then(data => {
       console.log('JSON-Daten erhalten:', data);
@@ -29,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .catch(error => console.error('Fehler beim Abrufen der Daten:', error));
 
-  let banJSON = fetch('http://localhost:3000/getBanListData')
+  fetch('http://localhost:3000/getBanListData')
     .then(response => response.json())
     .then(data => {
       console.log('JSON-Daten erhalten:', data);
@@ -62,7 +52,11 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+
+
   addToDeckBtn.addEventListener("click", function () {
+
+
 
     const regexPattern = /\bMainboard\b/g;
     const regexSelectCards = /^1 (.+)$/gm;
@@ -84,30 +78,21 @@ document.addEventListener("DOMContentLoaded", function () {
       deckEntry.cards.push({ "name": cardName.name });
     });
 
-    // Sende das Deck-Objekt an den Server
+
     fetch('http://localhost:3000/addDeckEntry', {
       method: 'POST',
+      mode: 'cors', // Add this line
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(deckEntry),
+      body: JSON.stringify({ deckEntry }),
     })
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        return response.text();
-      })
+      .then(response => response.json())
       .then(data => {
-        console.log(data);
-        // Hier könntest du weitere Aktionen nach dem erfolgreichen Hinzufügen durchführen
+        console.log('Serverantwort:', data);
       })
       .catch(error => {
-        console.error('Error:', error);
-        // Hier könntest du Fehlerbehandlung implementieren
       });
-
-
   });
 
   addToBanListBtn.addEventListener("click", function () {
