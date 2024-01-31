@@ -63,6 +63,8 @@ body {
 
 textarea {
   resize: none;
+  width: 99%;
+
 }
 .mainHeader {
   text-align: center;
