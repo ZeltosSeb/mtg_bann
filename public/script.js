@@ -131,10 +131,8 @@ document.addEventListener("DOMContentLoaded", function () {
       })
       .catch(error => console.error('Fehler beim Abrufen der Daten:', error));
 
-
-    onStart();
+    updateSelector();
     cardArray = [];
-
   });
 
   addToBanListBtn.addEventListener("click", async function () {
@@ -182,10 +180,8 @@ document.addEventListener("DOMContentLoaded", function () {
       })
       .catch(error => console.error('Fehler beim Abrufen der Daten:', error));
 
-    onStart();
+    updateSelector();
     cardArray = [];
-
-
   });
 
   clearTextBtn.addEventListener("click", function () {
@@ -241,9 +237,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let banList = document.getElementById("selectedBanList").value;
     let deckList = document.getElementById("selectedDeck").value;
 
-
-    var banListArr = banList.split(/\n/).map(line => line.trim());
-    var deckListArr = deckList.split(/\n/).map(line => line.trim());
+    let banListArr = banList.split(/\n/).map(line => line.trim());
+    let deckListArr = deckList.split(/\n/).map(line => line.trim());
 
     banListArr.pop();
     deckListArr.pop();
