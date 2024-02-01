@@ -124,6 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
           })
           .then(data => {
             console.log("Zur Deckliste hinzugefügt:", data)
+            updateSelector();
           })
           .catch(error => {
             console.error("Fehler beim Ändern der Daten: ", error);
@@ -131,7 +132,6 @@ document.addEventListener("DOMContentLoaded", function () {
       })
       .catch(error => console.error('Fehler beim Abrufen der Daten:', error));
 
-    updateSelector();
     cardArray = [];
   });
 
@@ -172,6 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("Banliste wurde hinzugefügt.")
           })
           .then(data => {
+            updateSelector();
             console.log("Zur Banliste hinzugefügt:", data)
           })
           .catch(error => {
@@ -180,7 +181,6 @@ document.addEventListener("DOMContentLoaded", function () {
       })
       .catch(error => console.error('Fehler beim Abrufen der Daten:', error));
 
-    updateSelector();
     cardArray = [];
   });
 
