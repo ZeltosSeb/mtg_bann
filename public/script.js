@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (banData.banLists) {
         for (i = 0; i < banData.banLists.length; i++) {
           collectionTitel = banData.banLists[i].banListName;
-          let htmlTxt = `<option value="${collectionTitel}">${collectionTitel}</option>`;
+          let htmlTxt = `<option  value="${collectionTitel}" >${collectionTitel}</option>`;
           banSelector.innerHTML += htmlTxt;
         }
       }
@@ -185,4 +185,15 @@ document.addEventListener("DOMContentLoaded", function () {
     userListInput.value = "";
   }
 
+});
+
+deckSelector.addEventListener("change", function () {
+  // Hier wird der Code ausgeführt, wenn ein Element ausgewählt wird
+  console.log("Ausgewähltes Deck:", deckSelector.value);
+
+});
+
+banSelector.addEventListener("change", function () {
+  // Hier wird der Code ausgeführt, wenn ein Element ausgewählt wird
+  console.log("Ausgewählte Bannliste:", banSelector.value);
 });
