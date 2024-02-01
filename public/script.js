@@ -8,7 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
   let deckSelector = document.getElementById("deckSelector");
   let banSelector = document.getElementById("banSelector");
   let filterDeckBtn = document.getElementById("filterDeck");
-  
+  let textFeldSelectedDeck = document.getElementById("selectedDeck");
+  let textFeldSelectedBanList = document.getElementById("selectedBanList");
+
   const regexPattern = /\bMainboard\b/g;
   const regexSelectCards = /^1 (.+)$/gm;
   let cardName = { "name": "" }
@@ -16,9 +18,36 @@ document.addEventListener("DOMContentLoaded", function () {
 
   onStart();
 
-  function onStart() {
+  async function onStart() {
     updateSelector();
-    
+    textFeldSelectedDeck.value = "";
+    textFeldSelectedBanList.value = "";
+    inputDeckName.value = "";
+    userListInput.value = "";
+
+    try {
+      const [deckData, banData] = await Promise.all([
+        fetch('http://localhost:3000/getDeckData').then(response => response.json()),
+        fetch('http://localhost:3000/getBanListData').then(response => response.json())
+      ]);
+
+      let i = 0;
+
+      deckData.decks[0].cards.forEach(cards => {
+        textFeldSelectedDeck.value += cards.name + "\n";
+        i++;
+      });
+
+      banData.banLists[0].cards.forEach(cards => {
+        textFeldSelectedBanList.value += cards.name + "\n";
+        i++;
+      });
+
+    }
+    catch (error) {
+      console.error('Fehler beim Aktualisieren der Selektoren:', error);
+    }
+
   }
 
   async function updateSelector() {
@@ -170,7 +199,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   deckSelector.addEventListener("change", async function () {
-    let textFeldSelectedDeck = document.getElementById("selectedDeck");
     let selectedDeck = deckSelector.value;
     const [deckData] = await Promise.all([
       fetch('http://localhost:3000/getDeckData').then(response => response.json()),
