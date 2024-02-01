@@ -131,8 +131,8 @@ textarea {
   text-align: center;
   width: 102%;
 }
-#cleanedDeck,
-#dirtyCards {
+#selectedDeck,
+#selectedBanList {
   resize: none;
   height: 440px;
   width: 98%;

@@ -3,23 +3,22 @@ document.addEventListener("DOMContentLoaded", function () {
   let addToDeckBtn = document.getElementById("AddToDeckList");
   let addToBanListBtn = document.getElementById("AddToBannList");
   let clearTextBtn = document.getElementById("clearTextarea");
-  let addToClipboardDeckBtn = document.getElementById("toClipboard_clean");
-  let addToClipboardBanBtn = document.getElementById("toClipboard_dirty");
   let userListInput = document.getElementById("userListInput");
   let inputDeckName = document.getElementById("inputDeckName");
   let deckSelector = document.getElementById("deckSelector");
   let banSelector = document.getElementById("banSelector");
+  let filterDeckBtn = document.getElementById("filterDeck");
+  
   const regexPattern = /\bMainboard\b/g;
   const regexSelectCards = /^1 (.+)$/gm;
   let cardName = { "name": "" }
   let cardArray = [];
 
+  onStart();
 
-  start();
-
-  function start() {
-
+  function onStart() {
     updateSelector();
+    
   }
 
   async function updateSelector() {
@@ -166,34 +165,58 @@ document.addEventListener("DOMContentLoaded", function () {
     clearText();
   });
 
-  addToClipboardDeckBtn.addEventListener("click", () => {
-  })
-
-  addToClipboardBanBtn.addEventListener("click", () => {
-  })
-
-
-  function toClipboard(status) {
-    if (status == "clean") {
-      console.log("clean");
-    } else if (status == "dirty") {
-      console.log("dirty");
-    }
-  }
-
   function clearText() {
     userListInput.value = "";
   }
 
+  deckSelector.addEventListener("change", async function () {
+    let textFeldSelectedDeck = document.getElementById("selectedDeck");
+    let selectedDeck = deckSelector.value;
+    const [deckData] = await Promise.all([
+      fetch('http://localhost:3000/getDeckData').then(response => response.json()),
+    ])
+    const arrDecks = deckData.decks;
+
+    for (let i = 0; i < arrDecks.length; i++) {
+
+      if (arrDecks[i].deckName == selectedDeck) {
+        let arrCards = arrDecks[i].cards;
+        let x = 0;
+
+        textFeldSelectedDeck.value = "";
+        arrCards.forEach(card => {
+          textFeldSelectedDeck.value += card.name + "\n";
+        });
+      }
+    }
+  });
+
+  banSelector.addEventListener("change", async function () {
+    let selectedBanList = banSelector.value;
+    const [banData] = await Promise.all([
+      fetch('http://localhost:3000/getBanListData').then(response => response.json()),
+    ])
+    const arrBan = banData.banLists;
+    for (let i = 0; i < arrBan.length; i++) {
+
+      if (arrBan[i].banListName == selectedBanList) {
+        let arrCards = arrBan[i].cards;
+        let x = 0;
+
+        textFeldSelectedBanList.value = "";
+        arrCards.forEach(card => {
+          textFeldSelectedBanList.value += card.name + "\n";
+        });
+      }
+    }
+  });
+
+  filterDeckBtn.addEventListener("click", function () {
+    let banList = document.getElementById("selectedBanList").value;
+    let deckList = document.getElementById("selectedDeck").value;
+
+
+  })
+
 });
 
-deckSelector.addEventListener("change", function () {
-  // Hier wird der Code ausgeführt, wenn ein Element ausgewählt wird
-  console.log("Ausgewähltes Deck:", deckSelector.value);
-
-});
-
-banSelector.addEventListener("change", function () {
-  // Hier wird der Code ausgeführt, wenn ein Element ausgewählt wird
-  console.log("Ausgewählte Bannliste:", banSelector.value);
-});
