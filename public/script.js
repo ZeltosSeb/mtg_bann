@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let deckText = userListInput.value;
     let match;
     let deckEntry = { "deckName": deckTitle, "cards": [] };
-    
+
     while ((match = regexSelectCards.exec(deckText)) !== null) {
       cardArray.push(match[1]);
     }
@@ -104,43 +104,42 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch('http://localhost:3000/getDeckData')
       .then(response => response.json())
       .then(data => {
-
         for (let i = 0; i < data.decks.length; i++) {
           if (data.decks[i].deckName == deckTitle) {
-            alert("Deck existiert bereits, ändere den Namen deines Decks oder entferne das Deck aus der Liste.");
-
+            alert("Deckname leer oder schon in der Deckliste vorhanden! \nLösche/ändere das Deck aus der deck.json Datei oder nutze einen anderen Namen um das Probelm zu beheben.")
+            throw new Error("Deck existiert bereits, \nändere den Namen deines Decks oder entferne das Deck aus der Liste.");
           }
         }
+        return fetch('http://localhost:3000/addDeckEntry', {
+          method: 'POST',
+          mode: 'cors',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ deckEntry }),
+        })
+          .then(response => {
+            response.json();
+            alert("Deck wurde hinzugefügt.");
+          })
+          .then(data => {
+            console.log("Zur Deckliste hinzugefügt:", data)
+          })
+          .catch(error => {
+            console.error("Fehler beim Ändern der Daten: ", error);
+          });
       })
       .catch(error => console.error('Fehler beim Abrufen der Daten:', error));
 
 
-    fetch('http://localhost:3000/addDeckEntry', {
-      method: 'POST',
-      mode: 'cors',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ deckEntry }),
-    })
-      .then(response => response.json())
-      .then(data => {
-
-      })
-      .catch(error => {
-      });
-    
     onStart();
-
-
     cardArray = [];
+
   });
 
-  addToBanListBtn.addEventListener("click", function () {
-
+  addToBanListBtn.addEventListener("click", async function () {
     let banListName = inputDeckName.value;
     let deckText = userListInput.value;
-    let isEntryValid;
     let match;
     let banEntry = { "banListName": banListName, "cards": [] };
 
@@ -153,51 +152,40 @@ document.addEventListener("DOMContentLoaded", function () {
       banEntry.cards.push({ "name": cardName.name });
     });
 
-
-
     fetch('http://localhost:3000/getBanListData')
       .then(response => response.json())
       .then(data => {
-
         for (let i = 0; i < data.banLists.length; i++) {
           if (data.banLists[i].banListName == banListName) {
-            alert("Deck existiert bereits, ändere den Namen deines Decks oder entferne das Deck aus der Banliste.")
-            return;
+            alert("Banlistenname leer oder schon in der Banliste vorhanden! \nLösche/ändere die Liste aus der ban.json Datei oder nutze einen anderen Namen um das Probelm zu beheben.")
+            throw new Error("Liste existiert bereits, ändere den Namen deiner Liste oder entferne die Liste aus der aus der ban.json Datei.");
           }
         }
-      })
-      .catch(error => console.error('Fehler beim Abrufen der Daten:', error));
-
-    fetch('http://localhost:3000/addBanListEntry', {
-      method: 'POST',
-      mode: 'cors',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ banEntry }),
-    })
-      .then(response => response.json())
-      .then(data => {
-
-      })
-      .catch(error => {
-      });
-
-    fetch('http://localhost:3000/getDeckData')
-      .then(response => response.json())
-      .then(data => {
-      })
-      .catch(error => console.error('Fehler beim Abrufen der Daten:', error));
-
-    fetch('http://localhost:3000/getBanListData')
-      .then(response => response.json())
-      .then(data => {
+        return fetch('http://localhost:3000/addBanListEntry', {
+          method: 'POST',
+          mode: 'cors',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ banEntry }),
+        })
+          .then(response => {
+            response.json();
+            alert("Banliste wurde hinzugefügt.")
+          })
+          .then(data => {
+            console.log("Zur Banliste hinzugefügt:", data)
+          })
+          .catch(error => {
+            console.error("Fehler beim Ändern der Daten: ", error);
+          });
       })
       .catch(error => console.error('Fehler beim Abrufen der Daten:', error));
 
     onStart();
-
     cardArray = [];
+
+
   });
 
   clearTextBtn.addEventListener("click", function () {
@@ -280,7 +268,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     });
 
-    alert("Dein Deck wurde erfolgreich gefilterted. Siehe dein gefiltertes Deck im linken Textfeld.");
+    alert("Dein Deck wurde erfolgreich gefilterted. \nSiehe dein gefiltertes Deck im linken Textfeld.");
 
   });
 })
