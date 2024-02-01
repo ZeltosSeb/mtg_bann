@@ -28,6 +28,35 @@
           "name": "Court of Locthwain"
         }
       ]
+    },
+    {
+      "banListName": "Dimir Ban Test",
+      "cards": [
+        {
+          "name": "An Offer You Can't Refuse"
+        },
+        {
+          "name": "Animate Dead"
+        },
+        {
+          "name": "Arcane Signet"
+        },
+        {
+          "name": "Archghoul of Thraben"
+        },
+        {
+          "name": "Bojuka Bog"
+        },
+        {
+          "name": "Bontu's Monument"
+        },
+        {
+          "name": "Cabal Ritual"
+        },
+        {
+          "name": "Cabal Stronghold"
+        }
+      ]
     }
   ]
 }
