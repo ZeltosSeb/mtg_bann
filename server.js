@@ -4,8 +4,8 @@ const app = express();
 const path = require('path');
 const PORT = 3000;
 const bodyParser = require('body-parser');
-const deckFilePath = 'C:/Users/Sebastian Surwehme/OneDrive/Documents/mtg_bann/public/json/deck.json';
-const banFilePath = 'C:/Users/Sebastian Surwehme/OneDrive/Documents/mtg_bann/public/json/ban.json';
+const deckFilePath = path.join(__dirname, 'public', 'json', 'deck.json').replace(/\\/g, '/');
+const banFilePath = path.join(__dirname, 'public', 'json', 'ban.json').replace(/\\/g, '/');
 const cors = require('cors');
 
 app.use(cors());
