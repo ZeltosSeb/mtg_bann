@@ -244,7 +244,36 @@ document.addEventListener("DOMContentLoaded", function () {
     let deckList = document.getElementById("selectedDeck").value;
 
 
-  })
+    var banListArr = banList.split(/\n/).map(line => line.trim());
+    var deckListArr = deckList.split(/\n/).map(line => line.trim());
 
-});
+    banListArr.pop();
+    deckListArr.pop();
+
+    let remainingCards = deckListArr;
+
+    for (let i = 0; i < deckListArr.length; i++) {
+
+      for (let j = 0; j < banListArr.length; j++) {
+
+        if (banListArr[j] == deckListArr[i]) {
+
+          //Entferne von remainingCards einen Eintrag welcher gleich banListArr[j] ist
+          remainingCards = remainingCards.filter(card => card !== banListArr[j]);
+        }
+      }
+    }
+
+    remainingCards.forEach(card => {
+
+      userListInput.value += "1 " + card + "\n";
+
+    });
+
+    alert("Dein Deck wurde erfolgreich gefilterted. Siehe dein gefiltertes Deck im Linken Textfeld.");
+
+  });
+})
+
+
 
