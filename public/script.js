@@ -90,9 +90,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let deckTitle = inputDeckName.value;
     let deckText = userListInput.value;
     let match;
-    let isEntryValid;
     let deckEntry = { "deckName": deckTitle, "cards": [] };
-
+    
     while ((match = regexSelectCards.exec(deckText)) !== null) {
       cardArray.push(match[1]);
     }
@@ -108,36 +107,32 @@ document.addEventListener("DOMContentLoaded", function () {
 
         for (let i = 0; i < data.decks.length; i++) {
           if (data.decks[i].deckName == deckTitle) {
-            alert("Deck existiert bereits, ändere den Namen deines Decks oder entferne das Deck aus der Liste.")
-            isEntryValid = false;
-            return;
-          } else {
-            isEntryValid = true;
+            alert("Deck existiert bereits, ändere den Namen deines Decks oder entferne das Deck aus der Liste.");
+
           }
         }
       })
       .catch(error => console.error('Fehler beim Abrufen der Daten:', error));
 
 
-    if (isEntryValid == true) {
-      fetch('http://localhost:3000/addDeckEntry', {
-        method: 'POST',
-        mode: 'cors',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ deckEntry }),
+    fetch('http://localhost:3000/addDeckEntry', {
+      method: 'POST',
+      mode: 'cors',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ deckEntry }),
+    })
+      .then(response => response.json())
+      .then(data => {
+
       })
-        .then(response => response.json())
-        .then(data => {
+      .catch(error => {
+      });
+    
+    onStart();
 
-        })
-        .catch(error => {
-        });
 
-      updateSelector();
-
-    }
     cardArray = [];
   });
 
@@ -167,47 +162,41 @@ document.addEventListener("DOMContentLoaded", function () {
         for (let i = 0; i < data.banLists.length; i++) {
           if (data.banLists[i].banListName == banListName) {
             alert("Deck existiert bereits, ändere den Namen deines Decks oder entferne das Deck aus der Banliste.")
-            isEntryValid = false;
             return;
-          } else {
-            isEntryValid = true;
           }
         }
       })
       .catch(error => console.error('Fehler beim Abrufen der Daten:', error));
 
+    fetch('http://localhost:3000/addBanListEntry', {
+      method: 'POST',
+      mode: 'cors',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ banEntry }),
+    })
+      .then(response => response.json())
+      .then(data => {
 
-
-    if (isEntryValid == true) {
-      fetch('http://localhost:3000/addBanListEntry', {
-        method: 'POST',
-        mode: 'cors',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ banEntry }),
       })
-        .then(response => response.json())
-        .then(data => {
+      .catch(error => {
+      });
 
-        })
-        .catch(error => {
-        });
+    fetch('http://localhost:3000/getDeckData')
+      .then(response => response.json())
+      .then(data => {
+      })
+      .catch(error => console.error('Fehler beim Abrufen der Daten:', error));
 
-      fetch('http://localhost:3000/getDeckData')
-        .then(response => response.json())
-        .then(data => {
-        })
-        .catch(error => console.error('Fehler beim Abrufen der Daten:', error));
+    fetch('http://localhost:3000/getBanListData')
+      .then(response => response.json())
+      .then(data => {
+      })
+      .catch(error => console.error('Fehler beim Abrufen der Daten:', error));
 
-      fetch('http://localhost:3000/getBanListData')
-        .then(response => response.json())
-        .then(data => {
-        })
-        .catch(error => console.error('Fehler beim Abrufen der Daten:', error));
+    onStart();
 
-      updateSelector();
-    }
     cardArray = [];
   });
 
