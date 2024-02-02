@@ -43,7 +43,6 @@ app.get('/getDeckData', (req, res) => {
     });
 });
 
-
 app.get('/getBanListData', (req, res) => {
     // Lese die JSON-Datei ein
     fs.readFile(banFilePath, 'utf8', (err, data) => {
@@ -57,7 +56,6 @@ app.get('/getBanListData', (req, res) => {
         res.json(JSON.parse(data));
     });
 });
-
 
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);

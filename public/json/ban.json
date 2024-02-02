@@ -57,6 +57,29 @@
           "name": "Cabal Stronghold"
         }
       ]
+    },
+    {
+      "banListName": "Sheldred R34",
+      "cards": [
+        {
+          "name": "Aetherflux Reservoir"
+        },
+        {
+          "name": "Archon of Cruelty"
+        },
+        {
+          "name": "Blood Artist"
+        },
+        {
+          "name": "Boon of Emrakul"
+        },
+        {
+          "name": "Cabal Coffers"
+        },
+        {
+          "name": "Chain of Smog"
+        }
+      ]
     }
   ]
 }
