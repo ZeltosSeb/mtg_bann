@@ -1,0 +1,808 @@
+{
+  "decks": [
+    {
+      "deckName": "Sheoldred Deck",
+      "cards": [
+        {
+          "name": "Aetherflux Reservoir"
+        },
+        {
+          "name": "Archon of Cruelty"
+        },
+        {
+          "name": "Blood Artist"
+        },
+        {
+          "name": "Boon of Emrakul"
+        },
+        {
+          "name": "Cabal Coffers"
+        },
+        {
+          "name": "Chain of Smog"
+        },
+        {
+          "name": "Command Tower"
+        },
+        {
+          "name": "Court of Locthwain"
+        },
+        {
+          "name": "Cut Down"
+        },
+        {
+          "name": "Damnation"
+        },
+        {
+          "name": "Dark Ritual"
+        },
+        {
+          "name": "Dauthi Voidwalker"
+        },
+        {
+          "name": "Deadly Rollick"
+        },
+        {
+          "name": "Demonic Tutor"
+        },
+        {
+          "name": "Dhund Operative"
+        },
+        {
+          "name": "Dogged Detective"
+        },
+        {
+          "name": "Exotic Orchard"
+        },
+        {
+          "name": "Exquisite Blood"
+        },
+        {
+          "name": "Exsanguinate"
+        },
+        {
+          "name": "Feed the Swarm"
+        },
+        {
+          "name": "Force of Despair"
+        },
+        {
+          "name": "Grave Pact"
+        },
+        {
+          "name": "Gray Merchant of Asphodel"
+        },
+        {
+          "name": "Great Unclean One"
+        },
+        {
+          "name": "Heraldic Banner"
+        },
+        {
+          "name": "Imp's Mischief"
+        },
+        {
+          "name": "Infernal Grasp"
+        },
+        {
+          "name": "Jadar, Ghoulcaller of Nephalia"
+        },
+        {
+          "name": "Jet Medallion"
+        },
+        {
+          "name": "K'rrik, Son of Yawgmoth"
+        },
+        {
+          "name": "Liliana of the Veil // Liliana of the Veil"
+        },
+        {
+          "name": "Liliana, Dreadhorde General"
+        },
+        {
+          "name": "Malakir Rebirth // Malakir Mire"
+        },
+        {
+          "name": "Malicious Affliction"
+        },
+        {
+          "name": "Marauding Blight-Priest"
+        },
+        {
+          "name": "Massacre Wurm"
+        },
+        {
+          "name": "Memory Jar"
+        },
+        {
+          "name": "Mindcrank"
+        },
+        {
+          "name": "Morbid Opportunist"
+        },
+        {
+          "name": "Night's Whisper"
+        },
+        {
+          "name": "Ophiomancer"
+        },
+        {
+          "name": "Peer into the Abyss"
+        },
+        {
+          "name": "Phyrexian Arena"
+        },
+        {
+          "name": "Plaguecrafter"
+        },
+        {
+          "name": "Preacher of the Schism"
+        },
+        {
+          "name": "Professor Onyx"
+        },
+        {
+          "name": "Prophetic Prism // Prophetic Prism"
+        },
+        {
+          "name": "Ravenous Chupacabra"
+        },
+        {
+          "name": "Roaming Throne"
+        },
+        {
+          "name": "Rush of Vitality"
+        },
+        {
+          "name": "Sheoldred's Edict"
+        },
+        {
+          "name": "Sheoldred, the Apocalypse"
+        },
+        {
+          "name": "Sign in Blood"
+        },
+        {
+          "name": "Snuff Out"
+        },
+        {
+          "name": "Sol Ring // Sol Ring"
+        },
+        {
+          "name": "Succumb to Temptation"
+        },
+        {
+          "name": "Swamp"
+        },
+        {
+          "name": "Swiftfoot Boots"
+        },
+        {
+          "name": "The Grey Havens"
+        },
+        {
+          "name": "The Long Reach of Night // Animus of Night's Reach"
+        },
+        {
+          "name": "Thought Vessel"
+        },
+        {
+          "name": "Torment of Hailfire"
+        },
+        {
+          "name": "Toxic Deluge"
+        },
+        {
+          "name": "Ultimate Price"
+        },
+        {
+          "name": "Underworld Dreams"
+        },
+        {
+          "name": "Unhinge"
+        },
+        {
+          "name": "Vampiric Tutor"
+        },
+        {
+          "name": "Vendetta"
+        },
+        {
+          "name": "Vicious Rumors"
+        },
+        {
+          "name": "Vindictive Lich"
+        },
+        {
+          "name": "Vito, Thorn of the Dusk Rose"
+        },
+        {
+          "name": "Vraska's Contempt"
+        },
+        {
+          "name": "Wicked Pact"
+        },
+        {
+          "name": "Witch of the Moors"
+        },
+        {
+          "name": "Yahenni's Expertise"
+        },
+        {
+          "name": "Zof Consumption // Zof Bloodbog"
+        }
+      ]
+    },
+    {
+      "deckName": "Dimir",
+      "cards": [
+        {
+          "name": "An Offer You Can't Refuse"
+        },
+        {
+          "name": "Animate Dead"
+        },
+        {
+          "name": "Arcane Signet"
+        },
+        {
+          "name": "Archghoul of Thraben"
+        },
+        {
+          "name": "Bojuka Bog"
+        },
+        {
+          "name": "Bontu's Monument"
+        },
+        {
+          "name": "Cabal Ritual"
+        },
+        {
+          "name": "Cabal Stronghold"
+        },
+        {
+          "name": "Cemetery Reaper"
+        },
+        {
+          "name": "Champion of the Perished"
+        },
+        {
+          "name": "Command Tower"
+        },
+        {
+          "name": "Corpse Harvester"
+        },
+        {
+          "name": "Counterspell"
+        },
+        {
+          "name": "Crypt of Agadeem"
+        },
+        {
+          "name": "Damnation"
+        },
+        {
+          "name": "Dark Ritual"
+        },
+        {
+          "name": "Death Baron"
+        },
+        {
+          "name": "Diabolic Intent"
+        },
+        {
+          "name": "Diregraf Captain"
+        },
+        {
+          "name": "Diregraf Colossus"
+        },
+        {
+          "name": "Door of Destinies"
+        },
+        {
+          "name": "Drowned Catacomb"
+        },
+        {
+          "name": "Endless Ranks of the Dead"
+        },
+        {
+          "name": "Fallen Shinobi"
+        },
+        {
+          "name": "Feed the Swarm"
+        },
+        {
+          "name": "Fetid Pools"
+        },
+        {
+          "name": "Fierce Guardianship"
+        },
+        {
+          "name": "Geralf, Visionary Stitcher"
+        },
+        {
+          "name": "Ghoulish Procession"
+        },
+        {
+          "name": "God-Eternal Kefnet"
+        },
+        {
+          "name": "Grave Betrayal"
+        },
+        {
+          "name": "Gravecrawler"
+        },
+        {
+          "name": "Grim Tutor"
+        },
+        {
+          "name": "Headless Rider"
+        },
+        {
+          "name": "Herald's Horn"
+        },
+        {
+          "name": "Jadar, Ghoulcaller of Nephalia"
+        },
+        {
+          "name": "Jet Medallion"
+        },
+        {
+          "name": "Kindred Discovery"
+        },
+        {
+          "name": "Lich Lord of Unx"
+        },
+        {
+          "name": "Lightning Greaves"
+        },
+        {
+          "name": "Liliana of the Dark Realms"
+        },
+        {
+          "name": "Liliana, Death's Majesty"
+        },
+        {
+          "name": "Liliana, Dreadhorde General"
+        },
+        {
+          "name": "Lord of the Accursed"
+        },
+        {
+          "name": "Lord of the Undead"
+        },
+        {
+          "name": "Magus of the Coffers"
+        },
+        {
+          "name": "Midnight Reaper"
+        },
+        {
+          "name": "Mystical Tutor"
+        },
+        {
+          "name": "Necroduality"
+        },
+        {
+          "name": "Negate"
+        },
+        {
+          "name": "Overcharged Amalgam"
+        },
+        {
+          "name": "Phyrexian Delver"
+        },
+        {
+          "name": "Phyrexian Tower"
+        },
+        {
+          "name": "Plague Belcher"
+        },
+        {
+          "name": "Plaguecrafter"
+        },
+        {
+          "name": "Pongify"
+        },
+        {
+          "name": "Rapid Hybridization"
+        },
+        {
+          "name": "Relentless Dead"
+        },
+        {
+          "name": "Reliquary Tower"
+        },
+        {
+          "name": "Rise of the Dark Realms"
+        },
+        {
+          "name": "Rise of the Dread Marn"
+        },
+        {
+          "name": "Rooftop Storm"
+        },
+        {
+          "name": "Sapphire Medallion"
+        },
+        {
+          "name": "Shipwreck Marsh"
+        },
+        {
+          "name": "Sidisi, Undead Vizier"
+        },
+        {
+          "name": "Swan Song"
+        },
+        {
+          "name": "Swiftfoot Boots"
+        },
+        {
+          "name": "The Scarab God"
+        },
+        {
+          "name": "Thought Vessel"
+        },
+        {
+          "name": "Throne of the God-Pharaoh"
+        },
+        {
+          "name": "Training Grounds"
+        },
+        {
+          "name": "Unbreathing Horde"
+        },
+        {
+          "name": "Undead Augur"
+        },
+        {
+          "name": "Undead Warchief"
+        },
+        {
+          "name": "Unholy Grotto"
+        },
+        {
+          "name": "Urza's Incubator"
+        },
+        {
+          "name": "Vampiric Tutor"
+        },
+        {
+          "name": "Vengeful Pharaoh"
+        },
+        {
+          "name": "Vindictive Lich"
+        },
+        {
+          "name": "Vogar, Necropolis Tyrant"
+        },
+        {
+          "name": "Wand of Orcus"
+        },
+        {
+          "name": "Wilhelt, the Rotcleaver"
+        },
+        {
+          "name": "Wizard Class"
+        },
+        {
+          "name": "Zombie Master"
+        },
+        {
+          "name": "Arcane Denial"
+        },
+        {
+          "name": "Bladestitched Skaab"
+        },
+        {
+          "name": "Diregraf Ghoul"
+        },
+        {
+          "name": "Distant Melody"
+        },
+        {
+          "name": "Fell Stinger"
+        },
+        {
+          "name": "Ghoulcaller Gisa"
+        },
+        {
+          "name": "Grave Titan"
+        },
+        {
+          "name": "Havengul Lich"
+        },
+        {
+          "name": "Heraldic Banner"
+        },
+        {
+          "name": "Liliana's Devotee"
+        },
+        {
+          "name": "Liliana's Mastery"
+        },
+        {
+          "name": "Mindcrank"
+        },
+        {
+          "name": "Rot Hulk"
+        },
+        {
+          "name": "Vanquisher's Banner"
+        },
+        {
+          "name": "Zombie Apocalypse"
+        },
+        {
+          "name": "Cabal Coffers"
+        },
+        {
+          "name": "Cavern of Souls"
+        },
+        {
+          "name": "Coat of Arms"
+        },
+        {
+          "name": "Demonic Tutor"
+        },
+        {
+          "name": "Dictate of Erebos"
+        },
+        {
+          "name": "Grave Pact"
+        },
+        {
+          "name": "Jeweled Lotus"
+        },
+        {
+          "name": "Mana Drain"
+        },
+        {
+          "name": "Reanimate"
+        },
+        {
+          "name": "Rhystic Study"
+        },
+        {
+          "name": "Sol Ring"
+        },
+        {
+          "name": "Urborg, Tomb of Yawgmoth"
+        }
+      ]
+    },
+    {
+      "deckName": "Sheldred R34",
+      "cards": [
+        {
+          "name": "Aetherflux Reservoir"
+        },
+        {
+          "name": "Archon of Cruelty"
+        },
+        {
+          "name": "Blood Artist"
+        },
+        {
+          "name": "Boon of Emrakul"
+        },
+        {
+          "name": "Cabal Coffers"
+        },
+        {
+          "name": "Chain of Smog"
+        },
+        {
+          "name": "Command Tower"
+        },
+        {
+          "name": "Court of Locthwain"
+        },
+        {
+          "name": "Cut Down"
+        },
+        {
+          "name": "Damnation"
+        },
+        {
+          "name": "Dark Ritual"
+        },
+        {
+          "name": "Dauthi Voidwalker"
+        },
+        {
+          "name": "Deadly Rollick"
+        },
+        {
+          "name": "Demonic Tutor"
+        },
+        {
+          "name": "Dhund Operative"
+        },
+        {
+          "name": "Dogged Detective"
+        },
+        {
+          "name": "Exotic Orchard"
+        },
+        {
+          "name": "Exquisite Blood"
+        },
+        {
+          "name": "Exsanguinate"
+        },
+        {
+          "name": "Feed the Swarm"
+        },
+        {
+          "name": "Force of Despair"
+        },
+        {
+          "name": "Grave Pact"
+        },
+        {
+          "name": "Gray Merchant of Asphodel"
+        },
+        {
+          "name": "Great Unclean One"
+        },
+        {
+          "name": "Heraldic Banner"
+        },
+        {
+          "name": "Imp's Mischief"
+        },
+        {
+          "name": "Infernal Grasp"
+        },
+        {
+          "name": "Jadar, Ghoulcaller of Nephalia"
+        },
+        {
+          "name": "Jet Medallion"
+        },
+        {
+          "name": "K'rrik, Son of Yawgmoth"
+        },
+        {
+          "name": "Liliana of the Veil // Liliana of the Veil"
+        },
+        {
+          "name": "Liliana, Dreadhorde General"
+        },
+        {
+          "name": "Malakir Rebirth // Malakir Mire"
+        },
+        {
+          "name": "Malicious Affliction"
+        },
+        {
+          "name": "Marauding Blight-Priest"
+        },
+        {
+          "name": "Massacre Wurm"
+        },
+        {
+          "name": "Memory Jar"
+        },
+        {
+          "name": "Mindcrank"
+        },
+        {
+          "name": "Morbid Opportunist"
+        },
+        {
+          "name": "Night's Whisper"
+        },
+        {
+          "name": "Ophiomancer"
+        },
+        {
+          "name": "Peer into the Abyss"
+        },
+        {
+          "name": "Phyrexian Arena"
+        },
+        {
+          "name": "Plaguecrafter"
+        },
+        {
+          "name": "Preacher of the Schism"
+        },
+        {
+          "name": "Professor Onyx"
+        },
+        {
+          "name": "Prophetic Prism // Prophetic Prism"
+        },
+        {
+          "name": "Ravenous Chupacabra"
+        },
+        {
+          "name": "Roaming Throne"
+        },
+        {
+          "name": "Rush of Vitality"
+        },
+        {
+          "name": "Sheoldred's Edict"
+        },
+        {
+          "name": "Sheoldred, the Apocalypse"
+        },
+        {
+          "name": "Sign in Blood"
+        },
+        {
+          "name": "Snuff Out"
+        },
+        {
+          "name": "Sol Ring // Sol Ring"
+        },
+        {
+          "name": "Succumb to Temptation"
+        },
+        {
+          "name": "Swamp"
+        },
+        {
+          "name": "Swiftfoot Boots"
+        },
+        {
+          "name": "The Grey Havens"
+        },
+        {
+          "name": "The Long Reach of Night // Animus of Night's Reach"
+        },
+        {
+          "name": "Thought Vessel"
+        },
+        {
+          "name": "Torment of Hailfire"
+        },
+        {
+          "name": "Toxic Deluge"
+        },
+        {
+          "name": "Ultimate Price"
+        },
+        {
+          "name": "Underworld Dreams"
+        },
+        {
+          "name": "Unhinge"
+        },
+        {
+          "name": "Vampiric Tutor"
+        },
+        {
+          "name": "Vendetta"
+        },
+        {
+          "name": "Vicious Rumors"
+        },
+        {
+          "name": "Vindictive Lich"
+        },
+        {
+          "name": "Vito, Thorn of the Dusk Rose"
+        },
+        {
+          "name": "Vraska's Contempt"
+        },
+        {
+          "name": "Wicked Pact"
+        },
+        {
+          "name": "Witch of the Moors"
+        },
+        {
+          "name": "Yahenni's Expertise"
+        },
+        {
+          "name": "Zof Consumption // Zof Bloodbog"
+        }
+      ]
+    }
+  ]
+}

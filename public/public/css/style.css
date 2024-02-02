@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap");
+
+.btn {
+  margin: 5px;
+  font-family: Koulen;
+  font-weight: 900;
+  font-size: 22px;
+  color: #fff;
+
+  box-shadow: none;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 500ms;
+  transform: translateY(0);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.colorTrans1 {
+  background: linear-gradient(90deg, #0066cc 0%, #c500cc 100%);
+  border: 2px solid #0066cc;
+}
+.colorTrans2 {
+  background: linear-gradient(90deg, #009ccc 0%, #8100cc 100%);
+  border: 2px solid #00c5cc;
+}
+.colorTrans3 {
+  background: linear-gradient(90deg, #7a00cc 0%, #cc007e 100%);
+  border: 2px solid #cc008f1c;
+}
+.colorTrans4 {
+  background: linear-gradient(90deg, #cc007e31 0%, #7a00cc1f 100%);
+  border: 2px solid #cc008f1c;
+}
+.colorTrans5 {
+  background: linear-gradient(90deg, #7a00cc36 0%, #cc007e49 100%);
+  border: 2px solid #cc008f1c;
+}
+.btn:hover {
+  outline: thick double #32a1ce;
+}
+body {
+  background-image: url("/img/BG.png");
+  background-repeat: repeat/no-repeat;
+  /* overflow: hidden; */
+}
+
+.h2Settings {
+  text-align: center;
+  color: white;
+}
+
+.adjustmentH2 {
+  padding-left: 10px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
+  height: 86vh;
+  overflow: hidden;
+}
+
+.leftSide {
+  display: block;
+
+  width: 50%;
+  height: 100%;
+
+  flex-direction: column;
+  justify-content: flex-start;
+
+  background-color: rgb(76, 29, 194);
+  border-radius: 20px;
+}
+
+.leftAreaText {
+  display: flex;
+  justify-content: space-around;
+}
+#userListInput {
+  height: 340px;
+}
+textarea {
+  resize: none;
+}
+.mainBtns {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: 100%;
+  background-color: rgb(20, 35, 177);
+  border-radius: 20px;
+}
+
+.containerSplitter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+}
+
+.longBtn {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.adjustmentDiv {
+  padding-bottom: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#deckSelector,
+#banSelector {
+  font-size: 1rem;
+  text-align: center;
+  width: 102%;
+}
+#selectedDeck,
+#selectedBanList {
+  resize: none;
+  height: 440px;
+  width: 98%;
+}
+
+.link {
+  color: rgba(229, 255, 0, 0.603);
+}
+
+footer {
+  display: block;
+  background-color: #333;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: 14px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 1rem;
+  margin-top: 2px;
+  margin-bottom: 0;
+  padding-bottom: 12px;
+}
+
+.inpDeckName {
+  display: flex;
+  width: 250px;
+  height: 50px;
+  margin: 20px auto; /* Dies fügt horizontalen Abstand hinzu und zentriert das Element */
+  text-align: center;
+}
+
+.yourDeckContainer {
+  margin-bottom: 5px;
+  margin: 20px;
+}
+
+.secondaryHeader {
+  margin-bottom: 10px;
+}
+
+.select {
+  margin-bottom: 15px;
+  width: 100%;
+}
+.select select {
+  font-family: "Arial";
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px 15px;
+  outline: 0;
+  border: 0px solid #000000;
+  border-radius: 0px;
+  background: #e6e6e6;
+  color: #7b7b7b;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.select select::-ms-expand {
+  display: none;
+}
+.select select:hover,
+.select select:focus {
+  color: #000000;
+  background: #cccccc;
+}
+.select select:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.select_arrow {
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  pointer-events: none;
+  border-style: solid;
+  border-width: 8px 5px 0px 5px;
+  border-color: #7b7b7b transparent transparent transparent;
+}
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+  border-top-color: #000000;
+}
+.select select:disabled ~ .select_arrow {
+  border-top-color: #cccccc;
+}
+
+.filterBtn {
+  margin: 5px;
+  font-family: Koulen;
+  font-weight: 900;
+  font-size: 22px;
+  color: #fff;
+  background: linear-gradient(90deg, #0066cc 0%, #c500cc 100%);
+  padding: 10px 30px;
+  border: 2px solid #0066cc;
+  box-shadow: 16px 13px 4px 5px #bebfff;
+  border-radius: 50px;
+  transition: 1000ms;
+  cursor: pointer;
+  text-transform: uppercase;
+}
