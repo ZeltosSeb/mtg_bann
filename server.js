@@ -7,10 +7,23 @@ const bodyParser = require('body-parser');
 const deckFilePath = path.join(__dirname, 'public', 'json', 'deck.json').replace(/\\/g, '/');
 const banFilePath = path.join(__dirname, 'public', 'json', 'ban.json').replace(/\\/g, '/');
 const cors = require('cors');
+const { exec } = require('child_process');
 
 app.use(cors());
 app.use(bodyParser.json()); // Add this line
 app.use(express.static('public'));
+
+
+// Öffne den Browser mit der gewünschten URL
+exec('start http://localhost:3000/main.html', (error, stdout, stderr) => {
+    if (error) {
+        console.error(`Fehler beim Öffnen des Browsers: ${error}`);
+        return;
+    }
+    console.log('Browser erfolgreich geöffnet.');
+});
+
+
 
 app.get('/readFile', (req, res) => {
     fs.readFile('server.js', 'utf8', (err, data) => {
