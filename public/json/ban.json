@@ -30,54 +30,29 @@
       ]
     },
     {
-      "banListName": "Dimir Ban Test",
-      "cards": [
-        {
-          "name": "An Offer You Can't Refuse"
-        },
-        {
-          "name": "Animate Dead"
-        },
-        {
-          "name": "Arcane Signet"
-        },
-        {
-          "name": "Archghoul of Thraben"
-        },
-        {
-          "name": "Bojuka Bog"
-        },
-        {
-          "name": "Bontu's Monument"
-        },
-        {
-          "name": "Cabal Ritual"
-        },
-        {
-          "name": "Cabal Stronghold"
-        }
-      ]
+      "banListName": "Test Bann",
+      "cards": []
     },
     {
-      "banListName": "Sheldred R34",
+      "banListName": "test ba",
       "cards": [
         {
-          "name": "Aetherflux Reservoir"
+          "name": "Arcane Denial"
         },
         {
-          "name": "Archon of Cruelty"
+          "name": "Attrition"
         },
         {
-          "name": "Blood Artist"
+          "name": "Baleful Strix"
         },
         {
-          "name": "Boon of Emrakul"
+          "name": "Brainstealer Dragon"
         },
         {
-          "name": "Cabal Coffers"
+          "name": "Brainstorm"
         },
         {
-          "name": "Chain of Smog"
+          "name": "Burnished Hart"
         }
       ]
     }

@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue");
+@import url("https://fonts.googleapis.com/css2?family=Koulen");
 
 .btn {
   margin: 5px;
@@ -120,9 +122,7 @@ textarea {
 }
 
 .adjustmentDiv {
-  padding-bottom: 10px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 0 5% 10px; /* top 0, right 5%, bottom 10px, left 5% */
 }
 
 #deckSelector,
