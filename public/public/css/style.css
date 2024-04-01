@@ -89,6 +89,10 @@ body {
 #userListInput {
   height: 340px;
 }
+#removedCards {
+  height: 340px;
+  width: 200px;
+}
 textarea {
   resize: none;
 }
@@ -96,6 +100,18 @@ textarea {
   display: flex;
   justify-content: space-evenly;
   padding-top: 20px;
+}
+
+.inputHeaderLeft{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.headerContainerLeft{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin:20px;
 }
 
 .rightSide {

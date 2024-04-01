@@ -10,9 +10,11 @@ document.addEventListener("DOMContentLoaded", function () {
   let filterDeckBtn = document.getElementById("filterDeck");
   let textFeldSelectedDeck = document.getElementById("selectedDeck");
   let textFeldSelectedBanList = document.getElementById("selectedBanList");
+  let removedCards = document.getElementById("removedCards");
 
   const regexPattern = /\bMainboard\b/g;
   const regexSelectCards = /^1 (.+)$/gm;
+  const regexSearchForLands = /\b\d{1,2}\s(?:Plains|Swamp|Island|Mountain|Forest)\b/gm;
   let cardName = { "name": "" }
   let cardArray = [];
 
@@ -33,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
       ]);
 
       let i = 0;
-
+      
       deckData.decks[firstEntryInList].cards.forEach(cards => {
         textFeldSelectedDeck.value += cards.name + "\n";
         i++;
@@ -95,6 +97,12 @@ document.addEventListener("DOMContentLoaded", function () {
     while ((match = regexSelectCards.exec(deckText)) !== null) {
       cardArray.push(match[1]);
     }
+    
+    match = [];
+
+    while ((match = regexSearchForLands.exec(deckText)) !== null){
+      cardArray.push(match[0]);
+    }
 
     cardArray.forEach(card => {
       cardName.name = card;
@@ -133,6 +141,9 @@ document.addEventListener("DOMContentLoaded", function () {
       .catch(error => console.error('Fehler beim Abrufen der Daten:', error));
 
     cardArray = [];
+    setTimeout(function(){
+      location.reload();
+  }, 1000);
   });
 
   addToBanListBtn.addEventListener("click", async function () {
@@ -239,6 +250,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let banListArr = banList.split(/\n/).map(line => line.trim());
     let deckListArr = deckList.split(/\n/).map(line => line.trim());
+    let filteredOutCards = [];
 
     banListArr.pop();
     deckListArr.pop();
@@ -250,18 +262,26 @@ document.addEventListener("DOMContentLoaded", function () {
       for (let j = 0; j < banListArr.length; j++) {
 
         if (banListArr[j] == deckListArr[i]) {
-
+          filteredOutCards.push(banListArr[j]);
           //Entferne von remainingCards einen Eintrag welcher gleich banListArr[j] ist
           remainingCards = remainingCards.filter(card => card !== banListArr[j]);
         }
       }
     }
+
+    console.table(filteredOutCards);
+
     clearText();
     remainingCards.forEach(card => {
-
-      userListInput.value += "1 " + card + "\n";
-
+      if (/^\d+\s+(Plains|Swamp|Island|Mountain|Forest)$/.test(card)) {
+        userListInput.value += card + "\n";
+    } else {
+        userListInput.value += "1 " + card + "\n";
+    }
     });
+    let removedCardTextTextareaText = filteredOutCards.join("\n");
+
+    removedCards.value = removedCardTextTextareaText;
 
     alert("Dein Deck wurde erfolgreich gefilterted. \nSiehe dein gefiltertes Deck im linken Textfeld.");
 

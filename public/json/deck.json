@@ -1,1347 +1,423 @@
 {
   "decks": [
     {
-      "deckName": "Sheoldred Deck",
+      "deckName": "Daniel",
       "cards": [
         {
-          "name": "Aetherflux Reservoir"
+          "name": "Abundance"
         },
         {
-          "name": "Archon of Cruelty"
+          "name": "Abzan Beastmaster"
         },
         {
-          "name": "Blood Artist"
+          "name": "Archdruid's Charm"
         },
         {
-          "name": "Boon of Emrakul"
+          "name": "Bala Ged Recovery // Bala Ged Sanctuary"
         },
         {
-          "name": "Cabal Coffers"
+          "name": "Biophagus"
         },
         {
-          "name": "Chain of Smog"
+          "name": "Bone Sabres"
         },
         {
-          "name": "Command Tower"
+          "name": "Bow of Nylea"
         },
         {
-          "name": "Court of Locthwain"
+          "name": "Brawn"
         },
         {
-          "name": "Cut Down"
+          "name": "Broken Bond"
         },
         {
-          "name": "Damnation"
+          "name": "Broodlord"
         },
         {
-          "name": "Dark Ritual"
+          "name": "Caged Sun"
         },
         {
-          "name": "Dauthi Voidwalker"
+          "name": "Castle Garenbrig"
         },
         {
-          "name": "Deadly Rollick"
+          "name": "Cenote Scout"
         },
         {
-          "name": "Demonic Tutor"
+          "name": "Clamavus"
         },
         {
-          "name": "Dhund Operative"
+          "name": "Colossal Majesty"
         },
         {
-          "name": "Dogged Detective"
+          "name": "Contest of Claws"
         },
         {
-          "name": "Exotic Orchard"
+          "name": "Cytospawn Shambler"
+        },
+        {
+          "name": "Death's Presence"
+        },
+        {
+          "name": "Defense of the Heart"
+        },
+        {
+          "name": "Dread Linnorm // Scale Deflection"
+        },
+        {
+          "name": "Emerald Medallion"
+        },
+        {
+          "name": "Emergent Woodwurm"
+        },
+        {
+          "name": "Explore"
+        },
+        {
+          "name": "Exponential Growth"
+        },
+        {
+          "name": "Gaea's Cradle"
+        },
+        {
+          "name": "Garruk's Uprising"
+        },
+        {
+          "name": "Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun"
+        },
+        {
+          "name": "Hierophant Bio-Titan"
+        },
+        {
+          "name": "Hormagaunt Horde"
+        },
+        {
+          "name": "Hydra Broodmaster"
+        },
+        {
+          "name": "Hydra's Growth"
+        },
+        {
+          "name": "Inspiring Call"
+        },
+        {
+          "name": "Jungle Basin"
+        },
+        {
+          "name": "Kalonian Hydra"
+        },
+        {
+          "name": "Land Grant"
+        },
+        {
+          "name": "Lictor"
+        },
+        {
+          "name": "Lifeblood Hydra"
+        },
+        {
+          "name": "Llanowar Elves"
+        },
+        {
+          "name": "Llanowar Reborn"
+        },
+        {
+          "name": "Llanowar Tribe"
+        },
+        {
+          "name": "Mosswort Bridge"
+        },
+        {
+          "name": "Nature's Lore"
+        },
+        {
+          "name": "Nature's Way"
+        },
+        {
+          "name": "Neverwinter Hydra"
+        },
+        {
+          "name": "New Horizons"
+        },
+        {
+          "name": "Nexos"
+        },
+        {
+          "name": "Old One Eye"
+        },
+        {
+          "name": "Oran-Rief, the Vastwood"
+        },
+        {
+          "name": "Path of Ancestry"
+        },
+        {
+          "name": "Primordial Hydra"
+        },
+        {
+          "name": "Purestrain Genestealer"
+        },
+        {
+          "name": "Quirion Beastcaller"
+        },
+        {
+          "name": "Reliquary Tower"
+        },
+        {
+          "name": "Sandwurm Convergence"
+        },
+        {
+          "name": "Sceptre of Eternal Glory"
+        },
+        {
+          "name": "Skyshroud Claim"
+        },
+        {
+          "name": "Sol Ring"
+        },
+        {
+          "name": "Spinning Wheel Kick"
+        },
+        {
+          "name": "Steelbane Hydra"
+        },
+        {
+          "name": "Sylvan Tutor"
+        },
+        {
+          "name": "Termagant Swarm"
+        },
+        {
+          "name": "Tervigon"
+        },
+        {
+          "name": "The Golden Throne"
+        },
+        {
+          "name": "The World Spell"
+        },
+        {
+          "name": "Traverse the Outlands"
+        },
+        {
+          "name": "Tribute to the World Tree"
+        },
+        {
+          "name": "Tyranid Invasion"
+        },
+        {
+          "name": "Tyrant Guard"
+        },
+        {
+          "name": "Ulvenwald Hydra"
+        },
+        {
+          "name": "Unnatural Growth"
+        },
+        {
+          "name": "Vivien, Arkbow Ranger"
+        },
+        {
+          "name": "Vorinclex, Monstrous Raider"
+        },
+        {
+          "name": "Worldly Tutor"
+        },
+        {
+          "name": "28 Forest"
+        }
+      ]
+    },
+    {
+      "deckName": "test filter",
+      "cards": [
+        {
+          "name": "Arcane Denial"
+        },
+        {
+          "name": "Arcane Signet"
+        },
+        {
+          "name": "Ashiok, Nightmare Muse"
+        },
+        {
+          "name": "Baleful Strix"
+        },
+        {
+          "name": "Baral's Expertise"
+        },
+        {
+          "name": "Eureka"
         },
         {
           "name": "Exquisite Blood"
         },
         {
-          "name": "Exsanguinate"
+          "name": "Felidar Sovereign"
         },
         {
-          "name": "Feed the Swarm"
+          "name": "Force of Vigor"
         },
         {
-          "name": "Force of Despair"
+          "name": "Force of Will"
+        },
+        {
+          "name": "Gaddock Teeg"
+        },
+        {
+          "name": "Gilded Drake"
+        },
+        {
+          "name": "Glen Elendra Archmage"
+        },
+        {
+          "name": "Goldspan Dragon"
+        },
+        {
+          "name": "Grand Arbiter Augustin IV"
         },
         {
           "name": "Grave Pact"
         },
         {
-          "name": "Gray Merchant of Asphodel"
+          "name": "Greater Good"
         },
         {
-          "name": "Great Unclean One"
+          "name": "Grim Monolith"
         },
         {
-          "name": "Heraldic Banner"
+          "name": "Halo Fountain"
         },
         {
-          "name": "Imp's Mischief"
+          "name": "Hatred"
         },
         {
-          "name": "Infernal Grasp"
+          "name": "Hit the Mother Lode"
         },
         {
-          "name": "Jadar, Ghoulcaller of Nephalia"
-        },
-        {
-          "name": "Jet Medallion"
-        },
-        {
-          "name": "K'rrik, Son of Yawgmoth"
-        },
-        {
-          "name": "Liliana of the Veil // Liliana of the Veil"
-        },
-        {
-          "name": "Liliana, Dreadhorde General"
-        },
-        {
-          "name": "Malakir Rebirth // Malakir Mire"
-        },
-        {
-          "name": "Malicious Affliction"
-        },
-        {
-          "name": "Marauding Blight-Priest"
-        },
-        {
-          "name": "Massacre Wurm"
-        },
-        {
-          "name": "Memory Jar"
-        },
-        {
-          "name": "Mindcrank"
-        },
-        {
-          "name": "Morbid Opportunist"
-        },
-        {
-          "name": "Night's Whisper"
-        },
-        {
-          "name": "Ophiomancer"
-        },
-        {
-          "name": "Peer into the Abyss"
-        },
-        {
-          "name": "Phyrexian Arena"
-        },
-        {
-          "name": "Plaguecrafter"
-        },
-        {
-          "name": "Preacher of the Schism"
-        },
-        {
-          "name": "Professor Onyx"
-        },
-        {
-          "name": "Prophetic Prism // Prophetic Prism"
-        },
-        {
-          "name": "Ravenous Chupacabra"
-        },
-        {
-          "name": "Roaming Throne"
-        },
-        {
-          "name": "Rush of Vitality"
-        },
-        {
-          "name": "Sheoldred's Edict"
-        },
-        {
-          "name": "Sheoldred, the Apocalypse"
-        },
-        {
-          "name": "Sign in Blood"
-        },
-        {
-          "name": "Snuff Out"
-        },
-        {
-          "name": "Sol Ring // Sol Ring"
-        },
-        {
-          "name": "Succumb to Temptation"
-        },
-        {
-          "name": "Swamp"
-        },
-        {
-          "name": "Swiftfoot Boots"
-        },
-        {
-          "name": "The Grey Havens"
-        },
-        {
-          "name": "The Long Reach of Night // Animus of Night's Reach"
-        },
-        {
-          "name": "Thought Vessel"
-        },
-        {
-          "name": "Torment of Hailfire"
-        },
-        {
-          "name": "Toxic Deluge"
-        },
-        {
-          "name": "Ultimate Price"
-        },
-        {
-          "name": "Underworld Dreams"
-        },
-        {
-          "name": "Unhinge"
-        },
-        {
-          "name": "Vampiric Tutor"
-        },
-        {
-          "name": "Vendetta"
-        },
-        {
-          "name": "Vicious Rumors"
-        },
-        {
-          "name": "Vindictive Lich"
-        },
-        {
-          "name": "Vito, Thorn of the Dusk Rose"
-        },
-        {
-          "name": "Vraska's Contempt"
-        },
-        {
-          "name": "Wicked Pact"
-        },
-        {
-          "name": "Witch of the Moors"
-        },
-        {
-          "name": "Yahenni's Expertise"
-        },
-        {
-          "name": "Zof Consumption // Zof Bloodbog"
-        }
-      ]
-    },
-    {
-      "deckName": "Test",
-      "cards": [
-        {
-          "name": "Arcane Denial"
-        },
-        {
-          "name": "Attrition"
-        },
-        {
-          "name": "Baleful Strix"
-        },
-        {
-          "name": "Brainstealer Dragon"
-        },
-        {
-          "name": "Brainstorm"
-        },
-        {
-          "name": "Burnished Hart"
-        },
-        {
-          "name": "Chaos Wand"
-        },
-        {
-          "name": "Choked Estuary"
-        },
-        {
-          "name": "Command Tower"
-        },
-        {
-          "name": "Consider"
-        },
-        {
-          "name": "Counterspell"
-        },
-        {
-          "name": "Court of Locthwain"
-        },
-        {
-          "name": "Creeping Tar Pit"
-        },
-        {
-          "name": "Cunning Rhetoric"
-        },
-        {
-          "name": "Damnation"
-        },
-        {
-          "name": "Dark Ritual"
-        },
-        {
-          "name": "Darkslick Shores"
-        },
-        {
-          "name": "Darkwater Catacombs"
-        },
-        {
-          "name": "Dauthi Voidwalker"
-        },
-        {
-          "name": "Dazzling Sphinx"
-        },
-        {
-          "name": "Deathmark"
-        },
-        {
-          "name": "Diluvian Primordial"
-        },
-        {
-          "name": "Dimir Guildgate"
-        },
-        {
-          "name": "Dimir Locket"
-        },
-        {
-          "name": "Dimir Signet"
-        },
-        {
-          "name": "Dismal Backwater"
-        },
-        {
-          "name": "Do or Die"
-        },
-        {
-          "name": "Doom Blade"
-        },
-        {
-          "name": "Drown in the Loch"
-        },
-        {
-          "name": "Drowned Catacomb"
-        },
-        {
-          "name": "Elder Brain"
-        },
-        {
-          "name": "Energy Flux"
-        },
-        {
-          "name": "Fallen Shinobi"
-        },
-        {
-          "name": "Fetid Pools"
-        },
-        {
-          "name": "Force of Despair"
-        },
-        {
-          "name": "Gitaxian Probe"
-        },
-        {
-          "name": "Gix, Yawgmoth Praetor"
-        },
-        {
-          "name": "Gonti, Lord of Luxury"
-        },
-        {
-          "name": "Gríma, Saruman's Footman"
-        },
-        {
-          "name": "Halo Forager"
-        },
-        {
-          "name": "Hedron Crab"
-        },
-        {
-          "name": "Hoarding Broodlord"
-        },
-        {
-          "name": "Hostage Taker"
-        },
-        {
-          "name": "Ice Tunnel"
+          "name": "Humility"
         },
         {
           "name": "Imprisoned in the Moon"
         },
         {
-          "name": "Infernal Grasp"
+          "name": "In the Eye of Chaos"
         },
         {
-          "name": "Intellect Devourer"
+          "name": "Jeska's Will"
         },
         {
-          "name": "Jace's Mindseeker"
+          "name": "Jeweled Lotus"
         },
         {
-          "name": "Jace's Phantasm"
+          "name": "Jin-Gitaxias, Core Augur"
         },
         {
-          "name": "Jet Medallion"
+          "name": "Jin-Gitaxias, Progress Tyrant"
         },
         {
-          "name": "King Narfi's Betrayal"
+          "name": "Kiki-Jiki, Mirror Breaker"
         },
         {
-          "name": "Lazav, the Multifarious"
+          "name": "Kokusho, the Evening Star"
         },
         {
-          "name": "Memory Plunder"
+          "name": "Koma, Cosmos Serpent"
         },
         {
-          "name": "Mind Flayer"
+          "name": "Kozilek, Butcher of Truth"
         },
         {
-          "name": "Mind's Dilation"
+          "name": "Kozilek, the Great Distortion"
         },
         {
-          "name": "Mirrormade"
+          "name": "Krark-Clan Ironworks"
         },
         {
-          "name": "Mistvault Bridge"
+          "name": "Limited Resources"
         },
         {
-          "name": "Morphic Pool"
+          "name": "Mana Breach"
         },
         {
-          "name": "Muddle the Mixture"
+          "name": "Mana Crypt"
         },
         {
-          "name": "Nashi, Moon Sage's Scion"
+          "name": "Mana Drain"
         },
         {
-          "name": "Necroduality"
+          "name": "Mana Geyser"
         },
         {
-          "name": "Negate"
+          "name": "Mana Vault"
         },
         {
-          "name": "Nightveil Specter"
+          "name": "Metalworker"
         },
         {
-          "name": "Notion Thief"
+          "name": "Mikaeus, the Unhallowed"
         },
         {
-          "name": "Outrageous Robbery"
+          "name": "Mindslaver"
         },
         {
-          "name": "Ponder"
+          "name": "Mirror Entity"
         },
         {
-          "name": "Propaganda"
+          "name": "Mishra's Workshop"
         },
         {
-          "name": "Sage of the Beyond"
+          "name": "Mizzix's Mastery"
         },
         {
-          "name": "Sapphire Medallion"
+          "name": "Moat"
         },
         {
-          "name": "Sheoldred, the Apocalypse"
+          "name": "Mox Diamond"
         },
         {
-          "name": "Shipwreck Marsh"
+          "name": "Mox Opal"
         },
         {
-          "name": "Silent-Blade Oni"
+          "name": "Mycosynth Lattice"
         },
         {
-          "name": "Siphon Insight"
+          "name": "Mystic Remora"
         },
         {
-          "name": "Sorcerous Squall"
+          "name": "Necropotence"
         },
         {
-          "name": "Spark Double"
+          "name": "Nether Void"
         },
         {
-          "name": "Sunken Hollow"
+          "name": "Nykthos, Shrine to Nyx"
         },
         {
-          "name": "Sunken Ruins"
+          "name": "Nyxbloom Ancient"
         },
         {
-          "name": "Sygg, River Cutthroat"
+          "name": "Old Gnawbone"
         },
         {
-          "name": "Tainted Isle"
+          "name": "Omniscience"
         },
         {
-          "name": "Talent of the Telepath"
+          "name": "Opposition Agent"
         },
         {
-          "name": "Talisman of Dominance"
+          "name": "Oppression"
         },
         {
-          "name": "Tasha, the Witch Queen"
+          "name": "Overwhelming Splendor"
         },
         {
-          "name": "Temple of Deceit"
+          "name": "Painful Quandary"
         },
         {
-          "name": "Thada Adel, Acquisitor"
+          "name": "Palinchron"
         },
         {
-          "name": "Thief of Sanity"
-        },
-        {
-          "name": "Toxic Deluge"
-        },
-        {
-          "name": "Tragic Slip"
-        },
-        {
-          "name": "Unsummon"
-        },
-        {
-          "name": "Watery Grave"
-        },
-        {
-          "name": "Witness Protection"
-        },
-        {
-          "name": "Apprentice Necromancer"
-        }
-      ]
-    },
-    {
-      "deckName": "Test Bann",
-      "cards": [
-        {
-          "name": "Arcane Denial"
-        },
-        {
-          "name": "Attrition"
-        },
-        {
-          "name": "Baleful Strix"
-        },
-        {
-          "name": "Brainstealer Dragon"
-        },
-        {
-          "name": "Brainstorm"
-        },
-        {
-          "name": "Burnished Hart"
-        },
-        {
-          "name": "Chaos Wand"
-        },
-        {
-          "name": "Choked Estuary"
-        },
-        {
-          "name": "Command Tower"
-        },
-        {
-          "name": "Consider"
-        },
-        {
-          "name": "Counterspell"
-        },
-        {
-          "name": "Court of Locthwain"
-        },
-        {
-          "name": "Creeping Tar Pit"
-        },
-        {
-          "name": "Cunning Rhetoric"
-        },
-        {
-          "name": "Damnation"
-        },
-        {
-          "name": "Dark Ritual"
-        },
-        {
-          "name": "Darkslick Shores"
-        },
-        {
-          "name": "Darkwater Catacombs"
-        },
-        {
-          "name": "Dauthi Voidwalker"
-        },
-        {
-          "name": "Dazzling Sphinx"
-        },
-        {
-          "name": "Deathmark"
-        },
-        {
-          "name": "Diluvian Primordial"
-        },
-        {
-          "name": "Dimir Guildgate"
-        },
-        {
-          "name": "Dimir Locket"
-        },
-        {
-          "name": "Dimir Signet"
-        },
-        {
-          "name": "Dismal Backwater"
-        },
-        {
-          "name": "Do or Die"
-        },
-        {
-          "name": "Doom Blade"
-        },
-        {
-          "name": "Drown in the Loch"
-        },
-        {
-          "name": "Drowned Catacomb"
-        },
-        {
-          "name": "Elder Brain"
-        },
-        {
-          "name": "Energy Flux"
-        },
-        {
-          "name": "Fallen Shinobi"
-        },
-        {
-          "name": "Fetid Pools"
-        },
-        {
-          "name": "Force of Despair"
-        },
-        {
-          "name": "Gitaxian Probe"
-        },
-        {
-          "name": "Gix, Yawgmoth Praetor"
-        },
-        {
-          "name": "Gonti, Lord of Luxury"
-        },
-        {
-          "name": "Gríma, Saruman's Footman"
-        },
-        {
-          "name": "Halo Forager"
-        },
-        {
-          "name": "Hedron Crab"
-        },
-        {
-          "name": "Hoarding Broodlord"
-        },
-        {
-          "name": "Hostage Taker"
-        },
-        {
-          "name": "Ice Tunnel"
-        },
-        {
-          "name": "Imprisoned in the Moon"
-        },
-        {
-          "name": "Infernal Grasp"
-        },
-        {
-          "name": "Intellect Devourer"
-        },
-        {
-          "name": "Jace's Mindseeker"
-        },
-        {
-          "name": "Jace's Phantasm"
-        },
-        {
-          "name": "Jet Medallion"
-        },
-        {
-          "name": "King Narfi's Betrayal"
-        },
-        {
-          "name": "Lazav, the Multifarious"
-        },
-        {
-          "name": "Memory Plunder"
-        },
-        {
-          "name": "Mind Flayer"
-        },
-        {
-          "name": "Mind's Dilation"
-        },
-        {
-          "name": "Mirrormade"
-        },
-        {
-          "name": "Mistvault Bridge"
-        },
-        {
-          "name": "Morphic Pool"
-        },
-        {
-          "name": "Muddle the Mixture"
-        },
-        {
-          "name": "Nashi, Moon Sage's Scion"
-        },
-        {
-          "name": "Necroduality"
-        },
-        {
-          "name": "Negate"
-        },
-        {
-          "name": "Nightveil Specter"
-        },
-        {
-          "name": "Notion Thief"
-        },
-        {
-          "name": "Outrageous Robbery"
-        },
-        {
-          "name": "Ponder"
-        },
-        {
-          "name": "Propaganda"
-        },
-        {
-          "name": "Sage of the Beyond"
-        },
-        {
-          "name": "Sapphire Medallion"
-        },
-        {
-          "name": "Sheoldred, the Apocalypse"
-        },
-        {
-          "name": "Shipwreck Marsh"
-        },
-        {
-          "name": "Silent-Blade Oni"
-        },
-        {
-          "name": "Siphon Insight"
-        },
-        {
-          "name": "Sorcerous Squall"
-        },
-        {
-          "name": "Spark Double"
-        },
-        {
-          "name": "Sunken Hollow"
-        },
-        {
-          "name": "Sunken Ruins"
-        },
-        {
-          "name": "Sygg, River Cutthroat"
-        },
-        {
-          "name": "Tainted Isle"
-        },
-        {
-          "name": "Talent of the Telepath"
-        },
-        {
-          "name": "Talisman of Dominance"
-        },
-        {
-          "name": "Tasha, the Witch Queen"
-        },
-        {
-          "name": "Temple of Deceit"
-        },
-        {
-          "name": "Thada Adel, Acquisitor"
-        },
-        {
-          "name": "Thief of Sanity"
-        },
-        {
-          "name": "Toxic Deluge"
-        },
-        {
-          "name": "Tragic Slip"
-        },
-        {
-          "name": "Unsummon"
-        },
-        {
-          "name": "Watery Grave"
-        },
-        {
-          "name": "Witness Protection"
-        },
-        {
-          "name": "Apprentice Necromancer"
-        }
-      ]
-    },
-    {
-      "deckName": "Test Bann 2",
-      "cards": [
-        {
-          "name": "Arcane Denial"
-        },
-        {
-          "name": "Attrition"
-        },
-        {
-          "name": "Baleful Strix"
-        },
-        {
-          "name": "Brainstealer Dragon"
-        },
-        {
-          "name": "Brainstorm"
-        },
-        {
-          "name": "Burnished Hart"
-        },
-        {
-          "name": "Chaos Wand"
-        },
-        {
-          "name": "Choked Estuary"
-        },
-        {
-          "name": "Command Tower"
-        },
-        {
-          "name": "Consider"
-        },
-        {
-          "name": "Counterspell"
-        },
-        {
-          "name": "Court of Locthwain"
-        },
-        {
-          "name": "Creeping Tar Pit"
-        },
-        {
-          "name": "Cunning Rhetoric"
-        },
-        {
-          "name": "Damnation"
-        },
-        {
-          "name": "Dark Ritual"
-        },
-        {
-          "name": "Darkslick Shores"
-        },
-        {
-          "name": "Darkwater Catacombs"
-        },
-        {
-          "name": "Dauthi Voidwalker"
-        },
-        {
-          "name": "Dazzling Sphinx"
-        },
-        {
-          "name": "Deathmark"
-        },
-        {
-          "name": "Diluvian Primordial"
-        },
-        {
-          "name": "Dimir Guildgate"
-        },
-        {
-          "name": "Dimir Locket"
-        },
-        {
-          "name": "Dimir Signet"
-        },
-        {
-          "name": "Dismal Backwater"
-        },
-        {
-          "name": "Do or Die"
-        },
-        {
-          "name": "Doom Blade"
-        },
-        {
-          "name": "Drown in the Loch"
-        },
-        {
-          "name": "Drowned Catacomb"
-        },
-        {
-          "name": "Elder Brain"
-        },
-        {
-          "name": "Energy Flux"
-        },
-        {
-          "name": "Fallen Shinobi"
-        },
-        {
-          "name": "Fetid Pools"
-        },
-        {
-          "name": "Force of Despair"
-        },
-        {
-          "name": "Gitaxian Probe"
-        },
-        {
-          "name": "Gix, Yawgmoth Praetor"
-        },
-        {
-          "name": "Gonti, Lord of Luxury"
-        },
-        {
-          "name": "Gríma, Saruman's Footman"
-        },
-        {
-          "name": "Halo Forager"
-        },
-        {
-          "name": "Hedron Crab"
-        },
-        {
-          "name": "Hoarding Broodlord"
-        },
-        {
-          "name": "Hostage Taker"
-        },
-        {
-          "name": "Ice Tunnel"
-        },
-        {
-          "name": "Imprisoned in the Moon"
-        },
-        {
-          "name": "Infernal Grasp"
-        },
-        {
-          "name": "Intellect Devourer"
-        },
-        {
-          "name": "Jace's Mindseeker"
-        },
-        {
-          "name": "Jace's Phantasm"
-        },
-        {
-          "name": "Jet Medallion"
-        },
-        {
-          "name": "King Narfi's Betrayal"
-        },
-        {
-          "name": "Lazav, the Multifarious"
-        },
-        {
-          "name": "Memory Plunder"
-        },
-        {
-          "name": "Mind Flayer"
-        },
-        {
-          "name": "Mind's Dilation"
-        },
-        {
-          "name": "Mirrormade"
-        },
-        {
-          "name": "Mistvault Bridge"
-        },
-        {
-          "name": "Morphic Pool"
-        },
-        {
-          "name": "Muddle the Mixture"
-        },
-        {
-          "name": "Nashi, Moon Sage's Scion"
-        },
-        {
-          "name": "Necroduality"
-        },
-        {
-          "name": "Negate"
-        },
-        {
-          "name": "Nightveil Specter"
-        },
-        {
-          "name": "Notion Thief"
-        },
-        {
-          "name": "Outrageous Robbery"
-        },
-        {
-          "name": "Ponder"
-        },
-        {
-          "name": "Propaganda"
-        },
-        {
-          "name": "Sage of the Beyond"
-        },
-        {
-          "name": "Sapphire Medallion"
-        },
-        {
-          "name": "Sheoldred, the Apocalypse"
-        },
-        {
-          "name": "Shipwreck Marsh"
-        },
-        {
-          "name": "Silent-Blade Oni"
-        },
-        {
-          "name": "Siphon Insight"
-        },
-        {
-          "name": "Sorcerous Squall"
-        },
-        {
-          "name": "Spark Double"
-        },
-        {
-          "name": "Sunken Hollow"
-        },
-        {
-          "name": "Sunken Ruins"
-        },
-        {
-          "name": "Sygg, River Cutthroat"
-        },
-        {
-          "name": "Tainted Isle"
-        },
-        {
-          "name": "Talent of the Telepath"
-        },
-        {
-          "name": "Talisman of Dominance"
-        },
-        {
-          "name": "Tasha, the Witch Queen"
-        },
-        {
-          "name": "Temple of Deceit"
-        },
-        {
-          "name": "Thada Adel, Acquisitor"
-        },
-        {
-          "name": "Thief of Sanity"
-        },
-        {
-          "name": "Toxic Deluge"
-        },
-        {
-          "name": "Tragic Slip"
-        },
-        {
-          "name": "Unsummon"
-        },
-        {
-          "name": "Watery Grave"
-        },
-        {
-          "name": "Witness Protection"
-        },
-        {
-          "name": "Apprentice Necromancer"
-        }
-      ]
-    },
-    {
-      "deckName": "test",
-      "cards": [
-        {
-          "name": "Arcane Denial"
-        },
-        {
-          "name": "Attrition"
-        },
-        {
-          "name": "Baleful Strix"
-        },
-        {
-          "name": "Brainstealer Dragon"
-        },
-        {
-          "name": "Brainstorm"
-        },
-        {
-          "name": "Burnished Hart"
-        },
-        {
-          "name": "Chaos Wand"
-        },
-        {
-          "name": "Choked Estuary"
-        },
-        {
-          "name": "Command Tower"
-        },
-        {
-          "name": "Consider"
-        },
-        {
-          "name": "Counterspell"
-        },
-        {
-          "name": "Court of Locthwain"
-        },
-        {
-          "name": "Creeping Tar Pit"
-        },
-        {
-          "name": "Cunning Rhetoric"
-        },
-        {
-          "name": "Damnation"
-        },
-        {
-          "name": "Dark Ritual"
-        },
-        {
-          "name": "Darkslick Shores"
-        },
-        {
-          "name": "Darkwater Catacombs"
-        },
-        {
-          "name": "Dauthi Voidwalker"
-        },
-        {
-          "name": "Dazzling Sphinx"
-        },
-        {
-          "name": "Deathmark"
-        },
-        {
-          "name": "Diluvian Primordial"
-        },
-        {
-          "name": "Dimir Guildgate"
-        },
-        {
-          "name": "Dimir Locket"
-        },
-        {
-          "name": "Dimir Signet"
-        },
-        {
-          "name": "Dismal Backwater"
-        },
-        {
-          "name": "Do or Die"
-        },
-        {
-          "name": "Doom Blade"
-        },
-        {
-          "name": "Drown in the Loch"
-        },
-        {
-          "name": "Drowned Catacomb"
-        },
-        {
-          "name": "Elder Brain"
-        },
-        {
-          "name": "Energy Flux"
-        },
-        {
-          "name": "Fallen Shinobi"
-        },
-        {
-          "name": "Fetid Pools"
-        },
-        {
-          "name": "Force of Despair"
-        },
-        {
-          "name": "Gitaxian Probe"
-        },
-        {
-          "name": "Gix, Yawgmoth Praetor"
-        },
-        {
-          "name": "Gonti, Lord of Luxury"
-        },
-        {
-          "name": "Gríma, Saruman's Footman"
-        },
-        {
-          "name": "Halo Forager"
-        },
-        {
-          "name": "Hedron Crab"
-        },
-        {
-          "name": "Hoarding Broodlord"
-        },
-        {
-          "name": "Hostage Taker"
-        },
-        {
-          "name": "Ice Tunnel"
-        },
-        {
-          "name": "Imprisoned in the Moon"
-        },
-        {
-          "name": "Infernal Grasp"
-        },
-        {
-          "name": "Intellect Devourer"
-        },
-        {
-          "name": "Jace's Mindseeker"
-        },
-        {
-          "name": "Jace's Phantasm"
-        },
-        {
-          "name": "Jet Medallion"
-        },
-        {
-          "name": "King Narfi's Betrayal"
-        },
-        {
-          "name": "Lazav, the Multifarious"
-        },
-        {
-          "name": "Memory Plunder"
-        },
-        {
-          "name": "Mind Flayer"
-        },
-        {
-          "name": "Mind's Dilation"
-        },
-        {
-          "name": "Mirrormade"
-        },
-        {
-          "name": "Mistvault Bridge"
-        },
-        {
-          "name": "Morphic Pool"
-        },
-        {
-          "name": "Muddle the Mixture"
-        },
-        {
-          "name": "Nashi, Moon Sage's Scion"
-        },
-        {
-          "name": "Necroduality"
-        },
-        {
-          "name": "Negate"
-        },
-        {
-          "name": "Nightveil Specter"
-        },
-        {
-          "name": "Notion Thief"
-        },
-        {
-          "name": "Outrageous Robbery"
-        },
-        {
-          "name": "Ponder"
-        },
-        {
-          "name": "Propaganda"
-        },
-        {
-          "name": "Sage of the Beyond"
-        },
-        {
-          "name": "Sapphire Medallion"
-        },
-        {
-          "name": "Sheoldred, the Apocalypse"
-        },
-        {
-          "name": "Shipwreck Marsh"
-        },
-        {
-          "name": "Silent-Blade Oni"
-        },
-        {
-          "name": "Siphon Insight"
-        },
-        {
-          "name": "Sorcerous Squall"
-        },
-        {
-          "name": "Spark Double"
-        },
-        {
-          "name": "Sunken Hollow"
-        },
-        {
-          "name": "Sunken Ruins"
-        },
-        {
-          "name": "Sygg, River Cutthroat"
-        },
-        {
-          "name": "Tainted Isle"
-        },
-        {
-          "name": "Talent of the Telepath"
-        },
-        {
-          "name": "Talisman of Dominance"
-        },
-        {
-          "name": "Tasha, the Witch Queen"
-        },
-        {
-          "name": "Temple of Deceit"
-        },
-        {
-          "name": "Thada Adel, Acquisitor"
-        },
-        {
-          "name": "Thief of Sanity"
-        },
-        {
-          "name": "Toxic Deluge"
-        },
-        {
-          "name": "Tragic Slip"
-        },
-        {
-          "name": "Unsummon"
-        },
-        {
-          "name": "Watery Grave"
-        },
-        {
-          "name": "Witness Protection"
-        },
-        {
-          "name": "Apprentice Necromancer"
+          "name": "Planar Chaos"
         }
       ]
     }
