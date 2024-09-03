@@ -4,300 +4,490 @@
       "banListName": "BANNLIST-PLISI-REDCARDS",
       "cards": [
         {
-          "name": "Academy Manufactor"
-        },{
           "name": "Ad Nauseam"
         },
         {
+          "name": "Academy Manufactor"
+        },
+        {
           "name": "Aggravated Assault"
-        },{
+        },
+        {
           "name": "Aluren"
-        },{
+        },
+        {
           "name": "Ancient Copper Dragon"
-        },{
+        },
+        {
           "name": "Ancient Tomb"
-        },{
+        },
+        {
           "name": "Approach of the Second Sun"
-        },{
+        },
+        {
           "name": "Armageddon"
-        },{
+        },
+        {
           "name": "Ashnod's Altar"
-        },{
+        },
+        {
           "name": "Aura Flux"
-        },{
+        },
+        {
           "name": "Aura Shards"
-        },{
+        },
+        {
           "name": "Avacyn, Angel of Hope"
-        },{
+        },
+        {
           "name": "Back to Basics"
-        },{
+        },
+        {
           "name": "Bayou"
-        },{
+        },
+        {
           "name": "Black Market Connections"
-        },{
+        },
+        {
           "name": "Blightsteel Colossus"
-        },{
+        },
+        {
           "name": "Blood Moon"
-        },{
+        },
+        {
           "name": "Bottomless Pit"
-        },{
+        },
+        {
           "name": "Brass's Bounty"
-        },{
+        },
+        {
           "name": "Cabal Coffers"
-        },{
+        },
+        {
           "name": "Candelabra of Tawnos"
-        },{
+        },
+        {
           "name": "Cavern of Souls"
-        },{
+        },
+        {
           "name": "Chains of Mephistopheles"
-        },{
+        },
+        {
           "name": "Chalice of the Void"
-        },{
+        },
+        {
           "name": "Child of Alara"
-        },{
+        },
+        {
           "name": "Chrome Mox"
-        },{
+        },
+        {
           "name": "Coat of Arms"
-        },{
+        },
+        {
           "name": "Consecrated Sphinx"
-        },{
+        },
+        {
           "name": "Craterhoof Behemoth"
-        },{
+        },
+        {
           "name": "Cyclonic Rift"
-        },{
+        },
+        {
           "name": "Darksteel Forge"
-        },{
+        },
+        {
           "name": "Darksteel Mutation"
-        },{
+        },
+        {
           "name": "Deadeye Navigator"
-        },{
+        },
+        {
           "name": "Deadly Rollick"
-        },{
+        },
+        {
           "name": "Deflecting Swat"
-        },{
+        },
+        {
           "name": "Demonic Consultation"
-        },{
+        },
+        {
           "name": "Demonic Tutor"
-        },{
+        },
+        {
           "name": "Dictate of Erebos"
-        },{
+        },
+        {
           "name": "Divine Intervention"
-        },{
+        },
+        {
           "name": "Dockside Extortionist"
-        },{
+        },
+        {
           "name": "Doubling Season"
-        },{
+        },
+        {
           "name": "Dramatic Reversal"
-        },{
+        },
+        {
           "name": "Drannith Magistrate"
-        },{
+        },
+        {
           "name": "Earthcraft"
-        },{
+        },
+        {
           "name": "Empress Galina"
-        },{
+        },
+        {
           "name": "Entomb"
-        },{
+        },
+        {
           "name": "Esper Sentinel"
-        },{
+        },
+        {
+          "name": "Entomb"
+        },
+        {
+          "name": "Esper Sentinel"
+        },
+        {
           "name": "Eureka"
-        },{
+        },
+        {
           "name": "Exquisite Blood"
-        },{
+        },
+        {
           "name": "Felidar Sovereign"
-        },{
+        },
+        {
           "name": "Force of Vigor"
-        },{
+        },
+        {
           "name": "Force of Will"
-        },{
+        },
+        {
           "name": "Gaddock Teeg"
-        },{
+        },
+        {
           "name": "Gilded Drake"
-        },{
+        },
+        {
           "name": "Glen Elendra Archmage"
-        },{
+        },
+        {
           "name": "Goldspan Dragon"
-        },{
-          "name":"Grand Arbiter Augustin IV"
-        },{
-          "name":"Grave Pact"
-        },{
-          "name":"Greater good"
-        },{
-          "name":"Grim Monolith"
-        },{
-          "name":"Halo Fountain"
-        },{
-          "name":"Hatred"
-        },{
-          "name":"Hit the Mother Lode"
-        },{
-          "name":"Humility"
-        },{
-          "name":"Imprisoned in the Moon"
-        },{
-          "name":"IOn the Eye of Chaos"
-        },{
-          "name":"Jeska's Will"
-        },{
-          "name":"Jeweled Lotus"
-        },{
-          "name":"Jin-Gitaxias, Core Augur"
-        },{
-          "name":"Jin-Gitaxias, Progress Tyrant"
-        },{
-          "name":"Kiki-Jiki, Mirror Breaker"
-        },{
-          "name":"Kokusho, the Evening Star"
-        },{
-          "name":"Koma, Cosmos Serpent"
-        },{
-          "name":"Kozilek, Butcher of Truth"
-        },{
-          "name":"Kozilek, the Great Distortion"
-        },{
-          "name":"Krark-Clan Ironworks"
-        },{
-          "name":"Limited Resources"
-        },{
-          "name":"Mana Breach"
-        },{
-          "name":"Mana Crypt"
-        },{
-          "name":"Mana Drain"
-        },{
-          "name":"Mana Geyser"
-        },{
-          "name":"Mana Vault"
-        },{
-          "name":"Metalworker"
-        },{
-          "name":"Mikaeus, the Unhallowed"
-        },{
-          "name":"Mindslaver"
-        },{
-          "name":"Mirror Entity"
-        },{
-          "name":"Mishra's Workshop"
-        },{
-          "name":"Mizzix's Mastery"
-        },{
-          "name":"Moat"
-        },{
-          "name":"Mox Diamond"
-        },{
-          "name":"Mox Opal"
-        },{
-          "name":"Mycosynth Lattice"
-        },{
-          "name":"Mystic Remora"
-        },{
-          "name":"Necropotence"
-        },{
-          "name":"Nether Void"
-        },{
-          "name":"Nykthos, Shrine to Nyx"
-        },{
-          "name":"Nyxbloom Ancient"
-        },{
-          "name":"Old Gnawbone"
-        },{
-          "name":"Omniscience"
-        },{
-          "name":"Opposition Agent"
-        },{
-          "name":"Oppression"
-        },{
-          "name":"Overwhelming Splendor"
-        },{
-          "name":"Painful Quandry"
-        },{
-          "name":"Palinchron"
-        },{
-          "name":"Planar Chaos"
-        },{
-          "name":"Preston, the Vanisher"
-        },{
-          "name":"Primal Vigor"
-        },{
-          "name":"Reanimate"
-        },{
-          "name":"Revel in Riches"
-        },{
-          "name":"Rhystic Study"
-        },{
-          "name":"Ruinous Ultimatum"
-        },{
-          "name":"Scrambleverse"
-        },{
-          "name":"Seedborn Muse"
-        },{
-          "name":"Sensei's Divining Top"
-        },{
-          "name":"Serra Ascendant"
-        },{
-          "name":"Sheoldred, Whispering One"
-        },{
-          "name":"Skullclamp"
-        },{
-          "name":"Smokestack"
-        },{
-          "name":"Smothering Tithe"
-        },{
-          "name":"Sneak Attack"
-        },{
-          "name":"Solemnity"
-        },{
-          "name":"Song of the Dryads"
-        },{
-          "name":"Static Orb"
-        },{
-          "name":"Storm-Kiln Artist"
-        },{
-          "name":"Strip Mine"
-        },{
-          "name":"Sword of Feast and Famine"
-        },{
-          "name":"Sylvan library"
-        },{
-          "name":"Tainted Aether"
-        },{
-          "name":"Tainted Pact"
-        },{
-          "name":"Tectonic Edge"
-        },{
-          "name":"Teferi's Protection"
-        },{
-          "name":"Teferi, Master of Time"
-        },{
-          "name":"Tergrid, God of Fright // Tergrid's Lantern"
-        },{
-          "name":"Terror of the Peaks"
-        },{
-          "name":"Thassa's Oracle"
-        },{
-          "name":"The Great Henge"
-        },{
-          "name":"The Millennium Calendar"
-        },{
-          "name":"The Ozolith"
-        },{
-          "name":"Thieve's Auction"
-        },{
-          "name":"Thousand-Year Storm"
-        },{
-          "name":"Tinybones, Trinket Thief"
-        },{
-          "name":"Torment of Hailfire"
-        },{
-          "name":"Toxic Deluge"
-        },{
-          "name":"Treachery"
-        },{
-          "name":"Trinisphere"
-        },{
-          "name":"Triumph of the Hordes"
+        },
+        {
+          "name": "Grand Arbiter Augustin IV"
+        },
+        {
+          "name": "Greater Good"
+        },
+        {
+          "name": "Grim Monolith"
+        },
+        {
+          "name": "Halo Fountain"
+        },
+        {
+          "name": "Hatred"
+        },
+        {
+          "name": "Hit the Mother Lode"
+        },
+        {
+          "name": "Humility"
+        },
+        {
+          "name": "Imprisoned in the Moon"
+        },
+        {
+          "name": "In the Eye of Chaos"
+        },
+        {
+          "name": "Jeska's Will"
+        },
+        {
+          "name": "Jeweled Lotus"
+        },
+        {
+          "name": "Jin-Gitaxias, Core Augur"
+        },
+        {
+          "name": "Jin-Gitaxias, Progress Tyrant"
+        },
+        {
+          "name": "Kiki-Jiki, Mirror Breaker"
+        },
+        {
+          "name": "Kokusho, the Evening Star"
+        },
+        {
+          "name": "Koma, Cosmos Serpent"
+        },
+        {
+          "name": "Kozilek, Butcher of Truth"
+        },
+        {
+          "name": "Kozilek, the Great Distortion"
+        },
+        {
+          "name": "Krark-Clan Ironworks"
+        },
+        {
+          "name": "Limited Resources"
+        },
+        {
+          "name": "Mana Breach"
+        },
+        {
+          "name": "Mana Crypt"
+        },
+        {
+          "name": "Mana Drain"
+        },
+        {
+          "name": "Mana Geyser"
+        },
+        {
+          "name": "Mana Vault"
+        },
+        {
+          "name": "Metalworker"
+        },
+        {
+          "name": "Mikaeus, the Unhallowed"
+        },
+        {
+          "name": "Mindslaver"
+        },
+        {
+          "name": "Mirror Entity"
+        },
+        {
+          "name": "Mishra's Workshop"
+        },
+        {
+          "name": "Mizzix's Mastery"
+        },
+        {
+          "name": "Moat"
+        },
+        {
+          "name": "Mox Diamond"
+        },
+        {
+          "name": "Mycosynth Lattice"
+        },
+        {
+          "name": "Mystic Remora"
+        },
+        {
+          "name": "Necropotence"
+        },
+        {
+          "name": "Nether Void"
+        },
+        {
+          "name": "Nykthos, Shrine to Nyx"
+        },
+        {
+          "name": "Nyxbloom Ancient"
+        },
+        {
+          "name": "Old Gnawbone"
+        },
+        {
+          "name": "Omniscience"
+        },
+        {
+          "name": "Opposition Agent"
+        },
+        {
+          "name": "Oppression"
+        },
+        {
+          "name": "Overwhelming Splendor"
+        },
+        {
+          "name": "Painful Quandary"
+        },
+        {
+          "name": "Palinchron"
+        },
+        {
+          "name": "Syr Konrad, the Grim"
+        },
+        {
+          "name": "Planar Chaos"
+        },
+        {
+          "name": "Preston, the Vanisher"
+        },
+        {
+          "name": "Primal Vigor"
+        },
+        {
+          "name": "Reanimate"
+        },
+        {
+          "name": "Phyrexian Obliterator"
+        },
+        {
+          "name": "Revel in Riches"
+        },
+        {
+          "name": "Rhystic Study"
+        },
+        {
+          "name": "Ruinous Ultimatum"
+        },
+        {
+          "name": "Scrambleverse"
+        },
+        {
+          "name": "Seedborn Muse"
+        },
+        {
+          "name": "Sensei's Divining Top"
+        },
+        {
+          "name": "Serra Ascendant"
+        },
+        {
+          "name": "Sheoldred, Whispering One"
+        },
+        {
+          "name": "Skullclamp"
+        },
+        {
+          "name": "Smokestack"
+        },
+        {
+          "name": "Smothering Tithe"
+        },
+        {
+          "name": "Sneak Attack"
+        },
+        {
+          "name": "Solemnity"
+        },
+        {
+          "name": "Song of the Dryads"
+        },
+        {
+          "name": "Static Orb"
+        },
+        {
+          "name": "Storm-Kiln Artist"
+        },
+        {
+          "name": "Strip Mine"
+        },
+        {
+          "name": "Sword of Feast and Famine"
+        },
+        {
+          "name": "Sylvan Library"
+        },
+        {
+          "name": "Tainted Aether"
+        },
+        {
+          "name": "Tainted Pact"
+        },
+        {
+          "name": "Tectonic Edge"
+        },
+        {
+          "name": "Tefari's Protection"
+        },
+        {
+          "name": "Teferi, Master of Time"
+        },
+        {
+          "name": "Tergrid, God of Fright // Tergrid's Lantern"
+        },
+        {
+          "name": "Terror of the Peaks"
+        },
+        {
+          "name": "Thassa's Oracle"
+        },
+        {
+          "name": "The Great Henge"
+        },
+        {
+          "name": "The Millennium Calendar"
+        },
+        {
+          "name": "The Ozolith"
+        },
+        {
+          "name": "Thieves' Auction"
+        },
+        {
+          "name": "Thousand-Year Storm"
+        },
+        {
+          "name": "Torment of Hailfire"
+        },
+        {
+          "name": "Toxic Deluge"
+        },
+        {
+          "name": "Treachery"
+        },
+        {
+          "name": "Trinisphere"
+        },
+        {
+          "name": "Triumph of the Hordes"
+        },
+        {
+          "name": "Urborg, Tomb of Yawgmoth"
+        },
+        {
+          "name": "Urza, Lord High Artificer"
+        },
+        {
+          "name": "Vilis, Broker of Blood"
+        },
+        {
+          "name": "Void Winnower"
+        },
+        {
+          "name": "Vorinclex, Monstrous Raider"
+        },
+        {
+          "name": "Vorinclex, Voice of Hunger"
+        },
+        {
+          "name": "Wasteland"
+        },
+        {
+          "name": "Worldgorger Dragon"
+        },
+        {
+          "name": "Worldpurge"
+        },
+        {
+          "name": "Yavimaya, Cradle of Growth"
+        },
+        {
+          "name": "Yawgmoth's Will"
+        },
+        {
+          "name": "Yawgmoth, Thran Physician"
+        },
+        {
+          "name": "Zur's Weirding"
         }
       ]
+    },
+    {
+      "banListName": "",
+      "cards": []
     }
   ]
 }
